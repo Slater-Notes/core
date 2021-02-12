@@ -1,0 +1,842 @@
+{
+  "program": {
+    "fileInfos": {
+      "../node_modules/typescript/lib/lib.es5.d.ts": {
+        "version": "c9a1f03d6ba0fe3c871eb0dd81622e78fbb61ade70878b34d48a341a690c59e9",
+        "signature": "c9a1f03d6ba0fe3c871eb0dd81622e78fbb61ade70878b34d48a341a690c59e9",
+        "affectsGlobalScope": true
+      },
+      "../node_modules/typescript/lib/lib.es2015.d.ts": {
+        "version": "dc47c4fa66b9b9890cf076304de2a9c5201e94b740cffdf09f87296d877d71f6",
+        "signature": "dc47c4fa66b9b9890cf076304de2a9c5201e94b740cffdf09f87296d877d71f6",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/typescript/lib/lib.es2016.d.ts": {
+        "version": "7a387c58583dfca701b6c85e0adaf43fb17d590fb16d5b2dc0a2fbd89f35c467",
+        "signature": "7a387c58583dfca701b6c85e0adaf43fb17d590fb16d5b2dc0a2fbd89f35c467",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/typescript/lib/lib.es2017.d.ts": {
+        "version": "8a12173c586e95f4433e0c6dc446bc88346be73ffe9ca6eec7aa63c8f3dca7f9",
+        "signature": "8a12173c586e95f4433e0c6dc446bc88346be73ffe9ca6eec7aa63c8f3dca7f9",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/typescript/lib/lib.dom.d.ts": {
+        "version": "38130cdd16bd2318b9362f9d60dd9670f7e38708bb6131cf11fc78a41b2c34a0",
+        "signature": "38130cdd16bd2318b9362f9d60dd9670f7e38708bb6131cf11fc78a41b2c34a0",
+        "affectsGlobalScope": true
+      },
+      "../node_modules/typescript/lib/lib.es2015.core.d.ts": {
+        "version": "46ee15e9fefa913333b61eaf6b18885900b139867d89832a515059b62cf16a17",
+        "signature": "46ee15e9fefa913333b61eaf6b18885900b139867d89832a515059b62cf16a17",
+        "affectsGlobalScope": true
+      },
+      "../node_modules/typescript/lib/lib.es2015.collection.d.ts": {
+        "version": "43fb1d932e4966a39a41b464a12a81899d9ae5f2c829063f5571b6b87e6d2f9c",
+        "signature": "43fb1d932e4966a39a41b464a12a81899d9ae5f2c829063f5571b6b87e6d2f9c",
+        "affectsGlobalScope": true
+      },
+      "../node_modules/typescript/lib/lib.es2015.generator.d.ts": {
+        "version": "cdccba9a388c2ee3fd6ad4018c640a471a6c060e96f1232062223063b0a5ac6a",
+        "signature": "cdccba9a388c2ee3fd6ad4018c640a471a6c060e96f1232062223063b0a5ac6a",
+        "affectsGlobalScope": true
+      },
+      "../node_modules/typescript/lib/lib.es2015.iterable.d.ts": {
+        "version": "42f5e41e5893da663dbf0394268f54f1da4b43dc0ddd2ea4bf471fe5361d6faf",
+        "signature": "42f5e41e5893da663dbf0394268f54f1da4b43dc0ddd2ea4bf471fe5361d6faf",
+        "affectsGlobalScope": true
+      },
+      "../node_modules/typescript/lib/lib.es2015.promise.d.ts": {
+        "version": "0b7a905675e6cb4211c128f0a3aa47d414b275180a299a9aad5d3ec298abbfc4",
+        "signature": "0b7a905675e6cb4211c128f0a3aa47d414b275180a299a9aad5d3ec298abbfc4",
+        "affectsGlobalScope": true
+      },
+      "../node_modules/typescript/lib/lib.es2015.proxy.d.ts": {
+        "version": "dfff68b3c34338f6b307a25d4566de15eed7973b0dc5d69f9fde2bcac1c25315",
+        "signature": "dfff68b3c34338f6b307a25d4566de15eed7973b0dc5d69f9fde2bcac1c25315",
+        "affectsGlobalScope": true
+      },
+      "../node_modules/typescript/lib/lib.es2015.reflect.d.ts": {
+        "version": "cb609802a8698aa28b9c56331d4b53f590ca3c1c3a255350304ae3d06017779d",
+        "signature": "cb609802a8698aa28b9c56331d4b53f590ca3c1c3a255350304ae3d06017779d",
+        "affectsGlobalScope": true
+      },
+      "../node_modules/typescript/lib/lib.es2015.symbol.d.ts": {
+        "version": "3013574108c36fd3aaca79764002b3717da09725a36a6fc02eac386593110f93",
+        "signature": "3013574108c36fd3aaca79764002b3717da09725a36a6fc02eac386593110f93",
+        "affectsGlobalScope": true
+      },
+      "../node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts": {
+        "version": "4670208dd7da9d6c774ab1b75c1527a810388c7989c4905de6aaea8561cb9dce",
+        "signature": "4670208dd7da9d6c774ab1b75c1527a810388c7989c4905de6aaea8561cb9dce",
+        "affectsGlobalScope": true
+      },
+      "../node_modules/typescript/lib/lib.es2016.array.include.d.ts": {
+        "version": "3be5a1453daa63e031d266bf342f3943603873d890ab8b9ada95e22389389006",
+        "signature": "3be5a1453daa63e031d266bf342f3943603873d890ab8b9ada95e22389389006",
+        "affectsGlobalScope": true
+      },
+      "../node_modules/typescript/lib/lib.es2017.object.d.ts": {
+        "version": "17bb1fc99591b00515502d264fa55dc8370c45c5298f4a5c2083557dccba5a2a",
+        "signature": "17bb1fc99591b00515502d264fa55dc8370c45c5298f4a5c2083557dccba5a2a",
+        "affectsGlobalScope": true
+      },
+      "../node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts": {
+        "version": "b5e4c2d67aa844ed503b29cd4ca2ede1a229ac7fe874613b2c996fa9c581a25f",
+        "signature": "b5e4c2d67aa844ed503b29cd4ca2ede1a229ac7fe874613b2c996fa9c581a25f",
+        "affectsGlobalScope": true
+      },
+      "../node_modules/typescript/lib/lib.es2017.string.d.ts": {
+        "version": "6a6b173e739a6a99629a8594bfb294cc7329bfb7b227f12e1f7c11bc163b8577",
+        "signature": "6a6b173e739a6a99629a8594bfb294cc7329bfb7b227f12e1f7c11bc163b8577",
+        "affectsGlobalScope": true
+      },
+      "../node_modules/typescript/lib/lib.es2017.intl.d.ts": {
+        "version": "12a310447c5d23c7d0d5ca2af606e3bd08afda69100166730ab92c62999ebb9d",
+        "signature": "12a310447c5d23c7d0d5ca2af606e3bd08afda69100166730ab92c62999ebb9d",
+        "affectsGlobalScope": true
+      },
+      "../node_modules/typescript/lib/lib.es2017.typedarrays.d.ts": {
+        "version": "b0124885ef82641903d232172577f2ceb5d3e60aed4da1153bab4221e1f6dd4e",
+        "signature": "b0124885ef82641903d232172577f2ceb5d3e60aed4da1153bab4221e1f6dd4e",
+        "affectsGlobalScope": true
+      },
+      "../node_modules/ava/index.d.ts": {
+        "version": "0ceec7923fb2a6e540f73682c7acffe9124c9c3517a02eac27632844b8a61251",
+        "signature": "0ceec7923fb2a6e540f73682c7acffe9124c9c3517a02eac27632844b8a61251",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/localforage/typings/localforage.d.ts": {
+        "version": "5321a876abac5aae52929091fd23b94639c45c5308c650052664b63ea87f7eb6",
+        "signature": "5321a876abac5aae52929091fd23b94639c45c5308c650052664b63ea87f7eb6",
+        "affectsGlobalScope": true
+      },
+      "../src/localdb/index.ts": {
+        "version": "cda0e455a43213328b4726d50178d5914e72c4f3d1d2e356b37c2874c2b2017a",
+        "signature": "ae87a2340955edcbe73ddee0f4d10d3caed095f9884ae8aa025f6466736beca2",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/isomorphic-webcrypto/index.d.ts": {
+        "version": "b9866672228f20f099fce9847af26704ce6b3bfb15c7917ae9cf4eeb86625d63",
+        "signature": "b9866672228f20f099fce9847af26704ce6b3bfb15c7917ae9cf4eeb86625d63",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/base-64/index.d.ts": {
+        "version": "21d88c0d7029783f305bc1b481e7209efb933bddf0bd6b232e8ef5e18a4b350b",
+        "signature": "21d88c0d7029783f305bc1b481e7209efb933bddf0bd6b232e8ef5e18a4b350b",
+        "affectsGlobalScope": false
+      },
+      "../src/crypto/utils.ts": {
+        "version": "c0b40dbad070f8d77df6635babf92b950fcef31b006157f740fef48503eb667e",
+        "signature": "1063520419794691436477e12b52192c3a06f075c304353144b20b052f69689f",
+        "affectsGlobalScope": false
+      },
+      "../src/crypto/getkeyfrompassword.ts": {
+        "version": "56d85040d11f43e2f51ce5263345ab503e028abaa26d2afbe9082534fa838921",
+        "signature": "b6f139482b83be2f60f12a5ba3d3bd5c29114c611c60e276e33368b945a31526",
+        "affectsGlobalScope": false
+      },
+      "../src/crypto/getkeyfromderivedpassword.ts": {
+        "version": "3530d3d1e0ead7ff31e7c1ead56f7db8a4f774ca590d2aa620083f628735376a",
+        "signature": "fd7e30604ca55ec52379a4efce50658fcbe3d050927128d5847815780a9b6a71",
+        "affectsGlobalScope": false
+      },
+      "../src/crypto/decrypt.ts": {
+        "version": "f6b6eab60a819ce7db43188e2ad3942641d4ed650eaee4d3f8b33321c15dde9b",
+        "signature": "b771852ec4e52f26cd5bdb6ce882f49865fefb4d6547a307d81961302b8b7256",
+        "affectsGlobalScope": false
+      },
+      "../src/crypto/encrypt.ts": {
+        "version": "d18944173c4f78f33fdbb214359b6dc248e812f6fcbaf09666c3d48394da6677",
+        "signature": "fc535da4c0b44d11167f26d5e3ce9faf8e8ebe23e6ed871de06963609e1fd188",
+        "affectsGlobalScope": false
+      },
+      "../src/crypto/digest.ts": {
+        "version": "8f81559d603716cdb5564103d117f11650db9afe60b3e117aa9ab43df8218239",
+        "signature": "ce4b66a44776ba89858d83a78502caaafd166f6807aa08c1c82b5b84d8e20bd7",
+        "affectsGlobalScope": false
+      },
+      "../src/crypto/index.ts": {
+        "version": "81a20e1fdf49e674fc365462dee0d321b1f0711ea8f2fde9759881da2d403a48",
+        "signature": "007fabadcaf8c1d23285d3559246ab945aee2f28b0e06b13163c9e58535fca0e",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@editorjs/editorjs/types/tools/block-tool-data.d.ts": {
+        "version": "6c8f83e58c298a380059173a820f8415b922599d9dd89c6b4d97bb512965918b",
+        "signature": "6c8f83e58c298a380059173a820f8415b922599d9dd89c6b4d97bb512965918b",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@editorjs/editorjs/types/tools/tool-config.d.ts": {
+        "version": "bfcb13f818186711cfc68a09d56a71f8e0b05b0713ac9efd0585234574790734",
+        "signature": "bfcb13f818186711cfc68a09d56a71f8e0b05b0713ac9efd0585234574790734",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@editorjs/editorjs/types/tools/tool.d.ts": {
+        "version": "bb237fa6cc9638e5957cff9469c13a6175e226e6f225ce59b9413c5395bbf515",
+        "signature": "bb237fa6cc9638e5957cff9469c13a6175e226e6f225ce59b9413c5395bbf515",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@editorjs/editorjs/types/tools/paste-events.d.ts": {
+        "version": "d7ff6603b116bfe7cd9acbbad1ad2881dcf1b5f0948033964b67ad7c09d36387",
+        "signature": "d7ff6603b116bfe7cd9acbbad1ad2881dcf1b5f0948033964b67ad7c09d36387",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@editorjs/editorjs/types/tools/hook-events.d.ts": {
+        "version": "1ba7e69947d00a8b7fdfdea52ba489727f721a652335f6cd40b3960dc7f15944",
+        "signature": "1ba7e69947d00a8b7fdfdea52ba489727f721a652335f6cd40b3960dc7f15944",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@editorjs/editorjs/types/tools/block-tool.d.ts": {
+        "version": "6eef7a353706779139b20fd5ab6be62642e849f145311c4bd04cb8d45c970094",
+        "signature": "6eef7a353706779139b20fd5ab6be62642e849f145311c4bd04cb8d45c970094",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@editorjs/editorjs/types/tools/inline-tool.d.ts": {
+        "version": "8c278de0e0957d3e1cfa52bf83c207a9d60ca9bcad6f60427334e1e986ec49a9",
+        "signature": "8c278de0e0957d3e1cfa52bf83c207a9d60ca9bcad6f60427334e1e986ec49a9",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@editorjs/editorjs/types/tools/tool-settings.d.ts": {
+        "version": "80c4dd5b5569d52807c3ccfcd015a8a15f69201c82054c7338f5c33cd7184a65",
+        "signature": "80c4dd5b5569d52807c3ccfcd015a8a15f69201c82054c7338f5c33cd7184a65",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@editorjs/editorjs/types/tools/index.d.ts": {
+        "version": "85c2c94edf09a37bb5421d2e5a26de3d91b22bc02cecf02e6408a1b134760555",
+        "signature": "85c2c94edf09a37bb5421d2e5a26de3d91b22bc02cecf02e6408a1b134760555",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@editorjs/editorjs/types/configs/sanitizer-config.d.ts": {
+        "version": "fd2b8395ef3889e79362a18f634bf4e0f4788b9c62d9436ec515d542cde1b74a",
+        "signature": "fd2b8395ef3889e79362a18f634bf4e0f4788b9c62d9436ec515d542cde1b74a",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@editorjs/editorjs/types/configs/i18n-dictionary.d.ts": {
+        "version": "0b3f646ea225943398d9cf70f982efe221bccdd0e58a0806655aa9cb615c74a4",
+        "signature": "0b3f646ea225943398d9cf70f982efe221bccdd0e58a0806655aa9cb615c74a4",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@editorjs/editorjs/types/configs/i18n-config.d.ts": {
+        "version": "6662c5086b53557c470e45897156f05812914cde55125419eb3bab3332313f02",
+        "signature": "6662c5086b53557c470e45897156f05812914cde55125419eb3bab3332313f02",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@editorjs/editorjs/types/configs/editor-config.d.ts": {
+        "version": "50b0e4a8b144b46fd657049a210006ac9ef6d1352ca8ec70960791cdb1b226fc",
+        "signature": "50b0e4a8b144b46fd657049a210006ac9ef6d1352ca8ec70960791cdb1b226fc",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@editorjs/editorjs/types/configs/paste-config.d.ts": {
+        "version": "e0f283dd9ad4f309100b29dc2fc43b31e6ef1797f83b691c2043e0046a9520cf",
+        "signature": "e0f283dd9ad4f309100b29dc2fc43b31e6ef1797f83b691c2043e0046a9520cf",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@editorjs/editorjs/types/configs/conversion-config.ts": {
+        "version": "ea53f19bdb3832b090f41da28be3bfc95f451d47679b2464fa3c086bf75e00ae",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@editorjs/editorjs/types/configs/log-levels.d.ts": {
+        "version": "353dde0a4f9933078bff8254844d1b696c023605e88fb2649eae11204802b07e",
+        "signature": "353dde0a4f9933078bff8254844d1b696c023605e88fb2649eae11204802b07e",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@editorjs/editorjs/types/configs/index.d.ts": {
+        "version": "02761c7d3e0a1ac8c939995728fcc8c0b74057bb2bd56f8b7bf54705aa55087a",
+        "signature": "02761c7d3e0a1ac8c939995728fcc8c0b74057bb2bd56f8b7bf54705aa55087a",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@editorjs/editorjs/types/data-formats/output-data.d.ts": {
+        "version": "293de9d122396e3a15a5c603b4cefb76d08488dd20ce30ad6ee3be4ab22e3e9b",
+        "signature": "293de9d122396e3a15a5c603b4cefb76d08488dd20ce30ad6ee3be4ab22e3e9b",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@editorjs/editorjs/types/data-formats/block-data.d.ts": {
+        "version": "30bd26e6396cf931babd4bf7bbc3381ab740bafdda9be89d568dcaaab03ac558",
+        "signature": "30bd26e6396cf931babd4bf7bbc3381ab740bafdda9be89d568dcaaab03ac558",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@editorjs/editorjs/types/data-formats/index.d.ts": {
+        "version": "12f184e7e3b0d101c45c19c7dc897e963954d392cfb06f3cb9f720a8b626bf38",
+        "signature": "12f184e7e3b0d101c45c19c7dc897e963954d392cfb06f3cb9f720a8b626bf38",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@editorjs/editorjs/types/api/block.d.ts": {
+        "version": "e214550cad2f63fa1f4f965316722c2089292f77d16307f5a07addda4cdef5c5",
+        "signature": "e214550cad2f63fa1f4f965316722c2089292f77d16307f5a07addda4cdef5c5",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@editorjs/editorjs/types/api/blocks.d.ts": {
+        "version": "1e2fc739ce849652203eec7aa0f3a78e08546764ed1c17374e9bd317d10f0900",
+        "signature": "1e2fc739ce849652203eec7aa0f3a78e08546764ed1c17374e9bd317d10f0900",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@editorjs/editorjs/types/api/events.d.ts": {
+        "version": "b699d1933c052fd9e67e193b83a7b4f423becbc6172e131f1183142c84ddda59",
+        "signature": "b699d1933c052fd9e67e193b83a7b4f423becbc6172e131f1183142c84ddda59",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@editorjs/editorjs/types/api/listeners.d.ts": {
+        "version": "3e886210aee2ae9531aa1c99a7381689cdadacf13712a9b00789347085c56c87",
+        "signature": "3e886210aee2ae9531aa1c99a7381689cdadacf13712a9b00789347085c56c87",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@editorjs/editorjs/types/api/sanitizer.d.ts": {
+        "version": "d77c2a5e0d31bd5f2cf750ca55ade0e43fbb6fc9e6a742285e64c2490e899540",
+        "signature": "d77c2a5e0d31bd5f2cf750ca55ade0e43fbb6fc9e6a742285e64c2490e899540",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@editorjs/editorjs/types/api/saver.d.ts": {
+        "version": "91e9e01083ff883db35b02f70fe803f4fa9f67126716e8abd4348fefbe42c5ba",
+        "signature": "91e9e01083ff883db35b02f70fe803f4fa9f67126716e8abd4348fefbe42c5ba",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@editorjs/editorjs/types/api/selection.d.ts": {
+        "version": "64f473e3cd9a351ae46488a62ed72a945e3b98ecdb30e14b9bc7d1ec6f2028e6",
+        "signature": "64f473e3cd9a351ae46488a62ed72a945e3b98ecdb30e14b9bc7d1ec6f2028e6",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@editorjs/editorjs/types/api/styles.d.ts": {
+        "version": "5ab626979dba0e6754c9a266166b7adfb08826ed35b9932db993a18ac591b0b7",
+        "signature": "5ab626979dba0e6754c9a266166b7adfb08826ed35b9932db993a18ac591b0b7",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@editorjs/editorjs/types/api/caret.d.ts": {
+        "version": "d42d2511859a86356628507771569e827844a91248877c35a81eef09aa607cbf",
+        "signature": "d42d2511859a86356628507771569e827844a91248877c35a81eef09aa607cbf",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@editorjs/editorjs/types/api/toolbar.d.ts": {
+        "version": "bb508e64f3b4cee3671faa7920a02e2fdaefe728d83121366c51eeb53300715d",
+        "signature": "bb508e64f3b4cee3671faa7920a02e2fdaefe728d83121366c51eeb53300715d",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/codex-notifier/index.d.ts": {
+        "version": "a28db136a0f5c818d6deefcbba4b72afb493a0dd1dd2d4bf83b8ee6d90bc3ac6",
+        "signature": "a28db136a0f5c818d6deefcbba4b72afb493a0dd1dd2d4bf83b8ee6d90bc3ac6",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@editorjs/editorjs/types/api/notifier.d.ts": {
+        "version": "42c22f8d2bf3228dce685d6db0c2f517b0e3861409e78475ecd71bd0eb37fc74",
+        "signature": "42c22f8d2bf3228dce685d6db0c2f517b0e3861409e78475ecd71bd0eb37fc74",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/codex-tooltip/index.d.ts": {
+        "version": "5704bcbb85bf173ea51ce73b4bea1b620394e696c1f5996a9ad4ea104db90d99",
+        "signature": "5704bcbb85bf173ea51ce73b4bea1b620394e696c1f5996a9ad4ea104db90d99",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@editorjs/editorjs/types/api/tooltip.d.ts": {
+        "version": "3d67b6a014465bc349c20bda0b57bd88c058aefaae42ceee56d371cfa613671b",
+        "signature": "3d67b6a014465bc349c20bda0b57bd88c058aefaae42ceee56d371cfa613671b",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@editorjs/editorjs/types/api/inline-toolbar.d.ts": {
+        "version": "87853b05a2e2b8a84bc310ca5473f13323f8a1a16f942a3d525303f8b204f3cc",
+        "signature": "87853b05a2e2b8a84bc310ca5473f13323f8a1a16f942a3d525303f8b204f3cc",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@editorjs/editorjs/types/api/readonly.d.ts": {
+        "version": "a198ce2db963d5c727878c3029a886c4a6df2b3fc279dae22010e99d9c37bf0f",
+        "signature": "a198ce2db963d5c727878c3029a886c4a6df2b3fc279dae22010e99d9c37bf0f",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@editorjs/editorjs/types/api/i18n.d.ts": {
+        "version": "d4a0830de9a682dd62d3d21de19d7b5a59e43efb554b2f9df151020d33e0c087",
+        "signature": "d4a0830de9a682dd62d3d21de19d7b5a59e43efb554b2f9df151020d33e0c087",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@editorjs/editorjs/types/api/index.d.ts": {
+        "version": "85cea970e61b368f9f14ab045814312eb7bcb4dd7fdebf4b9f0eff30b8d7e2d2",
+        "signature": "85cea970e61b368f9f14ab045814312eb7bcb4dd7fdebf4b9f0eff30b8d7e2d2",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@editorjs/editorjs/types/block-tunes/block-tune.d.ts": {
+        "version": "d8df4d4c209f9244d5bf03dc8d5329adb4a40e748f6e2bbecc6b6742dc8ce992",
+        "signature": "d8df4d4c209f9244d5bf03dc8d5329adb4a40e748f6e2bbecc6b6742dc8ce992",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@editorjs/editorjs/types/block-tunes/index.d.ts": {
+        "version": "c97dac9d7b3d3f0c1ec22164bc5e6e52af61fad3d902387601b5b76288d63e30",
+        "signature": "c97dac9d7b3d3f0c1ec22164bc5e6e52af61fad3d902387601b5b76288d63e30",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@editorjs/editorjs/types/index.d.ts": {
+        "version": "dc09e61b47b98a00a56be6c03c1fdc8b592220e97f8ea26cd9b1b4b629b09868",
+        "signature": "dc09e61b47b98a00a56be6c03c1fdc8b592220e97f8ea26cd9b1b4b629b09868",
+        "affectsGlobalScope": false
+      },
+      "../src/types/notes.ts": {
+        "version": "9e6b69ef9e15eb4d3a006c242e85bd95b6fa2a9f2722252cb8059d8c327042cb",
+        "signature": "0e7b4e7e5f192afc0f9e9b45a299bd3964d4af1ff1e8bddf6c4b0af271ffe1c8",
+        "affectsGlobalScope": false
+      },
+      "../src/types/user.ts": {
+        "version": "83d593dbc26b9b33a1c34237fcdae763d59c6fcdf2f5759141ff4a6c8f69645e",
+        "signature": "05106c791dcd3ddab2549bece147f41f3d7afe30d83227c4c077fbc92a309452",
+        "affectsGlobalScope": false
+      },
+      "../src/index.ts": {
+        "version": "4bb5fab71d430ce95e4924b6af048391b55e0fa4edd152378f61145d6828aa6f",
+        "signature": "7303c42a8aeeda006e557f70d93bd485b4197677778f20898b186e8169852d42",
+        "affectsGlobalScope": false
+      },
+      "../src/index.spec.ts": {
+        "version": "7edb9f1a9f05407225212e712f9807081528ebf828412a3f627180ec6e638361",
+        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+        "affectsGlobalScope": false
+      },
+      "../src/crypto/changekey.ts": {
+        "version": "a4e307908792b16dd9ac33df6e6beef5d6baed9d5f9014f35e336b73e5c69977",
+        "signature": "78134368919eb80d809b54deae765c5d9a8728dca8a0e6cf1879b66c2c5a6054",
+        "affectsGlobalScope": false
+      },
+      "../src/crypto/crypto.spec.ts": {
+        "version": "bb1db6a552fd5153e191a15ae2587a1daaa86ddef348325a55ca378242f74315",
+        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+        "affectsGlobalScope": false
+      },
+      "../src/localdb/localdb.spec.ts": {
+        "version": "64832aead34dadb4460216d8f1dced07979d1d8ce789a7c3a6b8c9bed21fd99c",
+        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+        "affectsGlobalScope": false
+      },
+      "../src/types/localforage-memorystoragedriver.d.ts": {
+        "version": "21d30147261a19fd0cb12f7773bccba9331a95a0cf219d6e7fe286cf9827e9fd",
+        "signature": "21d30147261a19fd0cb12f7773bccba9331a95a0cf219d6e7fe286cf9827e9fd",
+        "affectsGlobalScope": false
+      }
+    },
+    "options": {
+      "incremental": true,
+      "target": 99,
+      "outDir": "./module",
+      "rootDir": "../src",
+      "moduleResolution": 2,
+      "module": 99,
+      "declaration": true,
+      "inlineSourceMap": true,
+      "esModuleInterop": true,
+      "resolveJsonModule": true,
+      "skipLibCheck": true,
+      "noUnusedLocals": true,
+      "noUnusedParameters": true,
+      "noImplicitReturns": true,
+      "noFallthroughCasesInSwitch": true,
+      "traceResolution": false,
+      "listEmittedFiles": false,
+      "listFiles": false,
+      "pretty": true,
+      "lib": [
+        "lib.es2017.d.ts",
+        "lib.dom.d.ts"
+      ],
+      "types": [],
+      "typeRoots": [
+        "../node_modules/@types",
+        "../src/types"
+      ],
+      "project": "../tsconfig.module.json",
+      "configFilePath": "../tsconfig.module.json"
+    },
+    "referencedMap": {
+      "../node_modules/@editorjs/editorjs/types/api/block.d.ts": [
+        "../node_modules/@editorjs/editorjs/types/data-formats/index.d.ts",
+        "../node_modules/@editorjs/editorjs/types/tools/index.d.ts"
+      ],
+      "../node_modules/@editorjs/editorjs/types/api/blocks.d.ts": [
+        "../node_modules/@editorjs/editorjs/types/api/block.d.ts",
+        "../node_modules/@editorjs/editorjs/types/data-formats/output-data.d.ts",
+        "../node_modules/@editorjs/editorjs/types/tools/index.d.ts"
+      ],
+      "../node_modules/@editorjs/editorjs/types/api/index.d.ts": [
+        "../node_modules/@editorjs/editorjs/types/api/block.d.ts",
+        "../node_modules/@editorjs/editorjs/types/api/blocks.d.ts",
+        "../node_modules/@editorjs/editorjs/types/api/caret.d.ts",
+        "../node_modules/@editorjs/editorjs/types/api/events.d.ts",
+        "../node_modules/@editorjs/editorjs/types/api/i18n.d.ts",
+        "../node_modules/@editorjs/editorjs/types/api/inline-toolbar.d.ts",
+        "../node_modules/@editorjs/editorjs/types/api/listeners.d.ts",
+        "../node_modules/@editorjs/editorjs/types/api/notifier.d.ts",
+        "../node_modules/@editorjs/editorjs/types/api/readonly.d.ts",
+        "../node_modules/@editorjs/editorjs/types/api/sanitizer.d.ts",
+        "../node_modules/@editorjs/editorjs/types/api/saver.d.ts",
+        "../node_modules/@editorjs/editorjs/types/api/selection.d.ts",
+        "../node_modules/@editorjs/editorjs/types/api/styles.d.ts",
+        "../node_modules/@editorjs/editorjs/types/api/toolbar.d.ts",
+        "../node_modules/@editorjs/editorjs/types/api/tooltip.d.ts"
+      ],
+      "../node_modules/@editorjs/editorjs/types/api/notifier.d.ts": [
+        "../node_modules/codex-notifier/index.d.ts"
+      ],
+      "../node_modules/@editorjs/editorjs/types/api/sanitizer.d.ts": [
+        "../node_modules/@editorjs/editorjs/types/index.d.ts"
+      ],
+      "../node_modules/@editorjs/editorjs/types/api/saver.d.ts": [
+        "../node_modules/@editorjs/editorjs/types/data-formats/output-data.d.ts"
+      ],
+      "../node_modules/@editorjs/editorjs/types/api/tooltip.d.ts": [
+        "../node_modules/codex-tooltip/index.d.ts"
+      ],
+      "../node_modules/@editorjs/editorjs/types/block-tunes/block-tune.d.ts": [
+        "../node_modules/@editorjs/editorjs/types/index.d.ts"
+      ],
+      "../node_modules/@editorjs/editorjs/types/block-tunes/index.d.ts": [
+        "../node_modules/@editorjs/editorjs/types/block-tunes/block-tune.d.ts"
+      ],
+      "../node_modules/@editorjs/editorjs/types/configs/conversion-config.ts": [
+        "../node_modules/@editorjs/editorjs/types/tools/index.d.ts"
+      ],
+      "../node_modules/@editorjs/editorjs/types/configs/editor-config.d.ts": [
+        "../node_modules/@editorjs/editorjs/types/configs/i18n-config.d.ts",
+        "../node_modules/@editorjs/editorjs/types/configs/sanitizer-config.d.ts",
+        "../node_modules/@editorjs/editorjs/types/index.d.ts",
+        "../node_modules/@editorjs/editorjs/types/tools/index.d.ts"
+      ],
+      "../node_modules/@editorjs/editorjs/types/configs/i18n-config.d.ts": [
+        "../node_modules/@editorjs/editorjs/types/configs/i18n-dictionary.d.ts"
+      ],
+      "../node_modules/@editorjs/editorjs/types/configs/index.d.ts": [
+        "../node_modules/@editorjs/editorjs/types/configs/conversion-config.ts",
+        "../node_modules/@editorjs/editorjs/types/configs/editor-config.d.ts",
+        "../node_modules/@editorjs/editorjs/types/configs/i18n-config.d.ts",
+        "../node_modules/@editorjs/editorjs/types/configs/i18n-dictionary.d.ts",
+        "../node_modules/@editorjs/editorjs/types/configs/log-levels.d.ts",
+        "../node_modules/@editorjs/editorjs/types/configs/paste-config.d.ts",
+        "../node_modules/@editorjs/editorjs/types/configs/sanitizer-config.d.ts"
+      ],
+      "../node_modules/@editorjs/editorjs/types/data-formats/block-data.d.ts": [
+        "../node_modules/@editorjs/editorjs/types/tools/index.d.ts"
+      ],
+      "../node_modules/@editorjs/editorjs/types/data-formats/index.d.ts": [
+        "../node_modules/@editorjs/editorjs/types/data-formats/block-data.d.ts",
+        "../node_modules/@editorjs/editorjs/types/data-formats/output-data.d.ts"
+      ],
+      "../node_modules/@editorjs/editorjs/types/data-formats/output-data.d.ts": [
+        "../node_modules/@editorjs/editorjs/types/tools/index.d.ts"
+      ],
+      "../node_modules/@editorjs/editorjs/types/index.d.ts": [
+        "../node_modules/@editorjs/editorjs/types/api/index.d.ts",
+        "../node_modules/@editorjs/editorjs/types/block-tunes/index.d.ts",
+        "../node_modules/@editorjs/editorjs/types/configs/index.d.ts",
+        "../node_modules/@editorjs/editorjs/types/data-formats/index.d.ts",
+        "../node_modules/@editorjs/editorjs/types/data-formats/output-data.d.ts",
+        "../node_modules/@editorjs/editorjs/types/tools/index.d.ts"
+      ],
+      "../node_modules/@editorjs/editorjs/types/tools/block-tool.d.ts": [
+        "../node_modules/@editorjs/editorjs/types/configs/index.d.ts",
+        "../node_modules/@editorjs/editorjs/types/index.d.ts",
+        "../node_modules/@editorjs/editorjs/types/tools/block-tool-data.d.ts",
+        "../node_modules/@editorjs/editorjs/types/tools/hook-events.d.ts",
+        "../node_modules/@editorjs/editorjs/types/tools/paste-events.d.ts",
+        "../node_modules/@editorjs/editorjs/types/tools/tool-config.d.ts",
+        "../node_modules/@editorjs/editorjs/types/tools/tool.d.ts"
+      ],
+      "../node_modules/@editorjs/editorjs/types/tools/index.d.ts": [
+        "../node_modules/@editorjs/editorjs/types/tools/block-tool-data.d.ts",
+        "../node_modules/@editorjs/editorjs/types/tools/block-tool.d.ts",
+        "../node_modules/@editorjs/editorjs/types/tools/hook-events.d.ts",
+        "../node_modules/@editorjs/editorjs/types/tools/inline-tool.d.ts",
+        "../node_modules/@editorjs/editorjs/types/tools/paste-events.d.ts",
+        "../node_modules/@editorjs/editorjs/types/tools/tool-config.d.ts",
+        "../node_modules/@editorjs/editorjs/types/tools/tool-settings.d.ts",
+        "../node_modules/@editorjs/editorjs/types/tools/tool.d.ts"
+      ],
+      "../node_modules/@editorjs/editorjs/types/tools/inline-tool.d.ts": [
+        "../node_modules/@editorjs/editorjs/types/index.d.ts",
+        "../node_modules/@editorjs/editorjs/types/tools/tool.d.ts"
+      ],
+      "../node_modules/@editorjs/editorjs/types/tools/tool-settings.d.ts": [
+        "../node_modules/@editorjs/editorjs/types/tools/index.d.ts",
+        "../node_modules/@editorjs/editorjs/types/tools/tool-config.d.ts"
+      ],
+      "../node_modules/@editorjs/editorjs/types/tools/tool.d.ts": [
+        "../node_modules/@editorjs/editorjs/types/configs/index.d.ts",
+        "../node_modules/@editorjs/editorjs/types/index.d.ts",
+        "../node_modules/@editorjs/editorjs/types/tools/tool-config.d.ts"
+      ],
+      "../src/crypto/changekey.ts": [
+        "../src/crypto/decrypt.ts",
+        "../src/crypto/encrypt.ts"
+      ],
+      "../src/crypto/crypto.spec.ts": [
+        "../node_modules/ava/index.d.ts",
+        "../src/crypto/decrypt.ts",
+        "../src/crypto/digest.ts",
+        "../src/crypto/encrypt.ts",
+        "../src/crypto/getkeyfromderivedpassword.ts",
+        "../src/crypto/utils.ts"
+      ],
+      "../src/crypto/decrypt.ts": [
+        "../node_modules/isomorphic-webcrypto/index.d.ts"
+      ],
+      "../src/crypto/digest.ts": [
+        "../node_modules/isomorphic-webcrypto/index.d.ts",
+        "../src/crypto/utils.ts"
+      ],
+      "../src/crypto/encrypt.ts": [
+        "../node_modules/isomorphic-webcrypto/index.d.ts"
+      ],
+      "../src/crypto/getkeyfromderivedpassword.ts": [
+        "../node_modules/isomorphic-webcrypto/index.d.ts",
+        "../src/crypto/getkeyfrompassword.ts"
+      ],
+      "../src/crypto/getkeyfrompassword.ts": [
+        "../node_modules/isomorphic-webcrypto/index.d.ts",
+        "../src/crypto/utils.ts"
+      ],
+      "../src/crypto/index.ts": [
+        "../src/crypto/decrypt.ts",
+        "../src/crypto/digest.ts",
+        "../src/crypto/encrypt.ts",
+        "../src/crypto/getkeyfromderivedpassword.ts",
+        "../src/crypto/getkeyfrompassword.ts",
+        "../src/crypto/utils.ts"
+      ],
+      "../src/crypto/utils.ts": [
+        "../node_modules/@types/base-64/index.d.ts",
+        "../node_modules/isomorphic-webcrypto/index.d.ts"
+      ],
+      "../src/index.spec.ts": [
+        "../node_modules/ava/index.d.ts",
+        "../src/index.ts"
+      ],
+      "../src/index.ts": [
+        "../src/crypto/index.ts",
+        "../src/localdb/index.ts",
+        "../src/types/notes.ts",
+        "../src/types/user.ts"
+      ],
+      "../src/localdb/index.ts": [
+        "../node_modules/localforage/typings/localforage.d.ts",
+        "../src/types/localforage-memorystoragedriver.d.ts"
+      ],
+      "../src/localdb/localdb.spec.ts": [
+        "../node_modules/ava/index.d.ts",
+        "../node_modules/isomorphic-webcrypto/index.d.ts",
+        "../src/crypto/decrypt.ts",
+        "../src/crypto/encrypt.ts",
+        "../src/crypto/getkeyfromderivedpassword.ts",
+        "../src/crypto/utils.ts",
+        "../src/localdb/index.ts"
+      ],
+      "../src/types/notes.ts": [
+        "../node_modules/@editorjs/editorjs/types/index.d.ts"
+      ]
+    },
+    "exportedModulesMap": {
+      "../node_modules/@editorjs/editorjs/types/api/block.d.ts": [
+        "../node_modules/@editorjs/editorjs/types/data-formats/index.d.ts",
+        "../node_modules/@editorjs/editorjs/types/tools/index.d.ts"
+      ],
+      "../node_modules/@editorjs/editorjs/types/api/blocks.d.ts": [
+        "../node_modules/@editorjs/editorjs/types/api/block.d.ts",
+        "../node_modules/@editorjs/editorjs/types/data-formats/output-data.d.ts",
+        "../node_modules/@editorjs/editorjs/types/tools/index.d.ts"
+      ],
+      "../node_modules/@editorjs/editorjs/types/api/index.d.ts": [
+        "../node_modules/@editorjs/editorjs/types/api/block.d.ts",
+        "../node_modules/@editorjs/editorjs/types/api/blocks.d.ts",
+        "../node_modules/@editorjs/editorjs/types/api/caret.d.ts",
+        "../node_modules/@editorjs/editorjs/types/api/events.d.ts",
+        "../node_modules/@editorjs/editorjs/types/api/i18n.d.ts",
+        "../node_modules/@editorjs/editorjs/types/api/inline-toolbar.d.ts",
+        "../node_modules/@editorjs/editorjs/types/api/listeners.d.ts",
+        "../node_modules/@editorjs/editorjs/types/api/notifier.d.ts",
+        "../node_modules/@editorjs/editorjs/types/api/readonly.d.ts",
+        "../node_modules/@editorjs/editorjs/types/api/sanitizer.d.ts",
+        "../node_modules/@editorjs/editorjs/types/api/saver.d.ts",
+        "../node_modules/@editorjs/editorjs/types/api/selection.d.ts",
+        "../node_modules/@editorjs/editorjs/types/api/styles.d.ts",
+        "../node_modules/@editorjs/editorjs/types/api/toolbar.d.ts",
+        "../node_modules/@editorjs/editorjs/types/api/tooltip.d.ts"
+      ],
+      "../node_modules/@editorjs/editorjs/types/api/notifier.d.ts": [
+        "../node_modules/codex-notifier/index.d.ts"
+      ],
+      "../node_modules/@editorjs/editorjs/types/api/sanitizer.d.ts": [
+        "../node_modules/@editorjs/editorjs/types/index.d.ts"
+      ],
+      "../node_modules/@editorjs/editorjs/types/api/saver.d.ts": [
+        "../node_modules/@editorjs/editorjs/types/data-formats/output-data.d.ts"
+      ],
+      "../node_modules/@editorjs/editorjs/types/api/tooltip.d.ts": [
+        "../node_modules/codex-tooltip/index.d.ts"
+      ],
+      "../node_modules/@editorjs/editorjs/types/block-tunes/block-tune.d.ts": [
+        "../node_modules/@editorjs/editorjs/types/index.d.ts"
+      ],
+      "../node_modules/@editorjs/editorjs/types/block-tunes/index.d.ts": [
+        "../node_modules/@editorjs/editorjs/types/block-tunes/block-tune.d.ts"
+      ],
+      "../node_modules/@editorjs/editorjs/types/configs/editor-config.d.ts": [
+        "../node_modules/@editorjs/editorjs/types/configs/i18n-config.d.ts",
+        "../node_modules/@editorjs/editorjs/types/configs/sanitizer-config.d.ts",
+        "../node_modules/@editorjs/editorjs/types/index.d.ts",
+        "../node_modules/@editorjs/editorjs/types/tools/index.d.ts"
+      ],
+      "../node_modules/@editorjs/editorjs/types/configs/i18n-config.d.ts": [
+        "../node_modules/@editorjs/editorjs/types/configs/i18n-dictionary.d.ts"
+      ],
+      "../node_modules/@editorjs/editorjs/types/configs/index.d.ts": [
+        "../node_modules/@editorjs/editorjs/types/configs/conversion-config.ts",
+        "../node_modules/@editorjs/editorjs/types/configs/editor-config.d.ts",
+        "../node_modules/@editorjs/editorjs/types/configs/i18n-config.d.ts",
+        "../node_modules/@editorjs/editorjs/types/configs/i18n-dictionary.d.ts",
+        "../node_modules/@editorjs/editorjs/types/configs/log-levels.d.ts",
+        "../node_modules/@editorjs/editorjs/types/configs/paste-config.d.ts",
+        "../node_modules/@editorjs/editorjs/types/configs/sanitizer-config.d.ts"
+      ],
+      "../node_modules/@editorjs/editorjs/types/data-formats/block-data.d.ts": [
+        "../node_modules/@editorjs/editorjs/types/tools/index.d.ts"
+      ],
+      "../node_modules/@editorjs/editorjs/types/data-formats/index.d.ts": [
+        "../node_modules/@editorjs/editorjs/types/data-formats/block-data.d.ts",
+        "../node_modules/@editorjs/editorjs/types/data-formats/output-data.d.ts"
+      ],
+      "../node_modules/@editorjs/editorjs/types/data-formats/output-data.d.ts": [
+        "../node_modules/@editorjs/editorjs/types/tools/index.d.ts"
+      ],
+      "../node_modules/@editorjs/editorjs/types/index.d.ts": [
+        "../node_modules/@editorjs/editorjs/types/api/index.d.ts",
+        "../node_modules/@editorjs/editorjs/types/block-tunes/index.d.ts",
+        "../node_modules/@editorjs/editorjs/types/configs/index.d.ts",
+        "../node_modules/@editorjs/editorjs/types/data-formats/index.d.ts",
+        "../node_modules/@editorjs/editorjs/types/data-formats/output-data.d.ts",
+        "../node_modules/@editorjs/editorjs/types/tools/index.d.ts"
+      ],
+      "../node_modules/@editorjs/editorjs/types/tools/block-tool.d.ts": [
+        "../node_modules/@editorjs/editorjs/types/configs/index.d.ts",
+        "../node_modules/@editorjs/editorjs/types/index.d.ts",
+        "../node_modules/@editorjs/editorjs/types/tools/block-tool-data.d.ts",
+        "../node_modules/@editorjs/editorjs/types/tools/hook-events.d.ts",
+        "../node_modules/@editorjs/editorjs/types/tools/paste-events.d.ts",
+        "../node_modules/@editorjs/editorjs/types/tools/tool-config.d.ts",
+        "../node_modules/@editorjs/editorjs/types/tools/tool.d.ts"
+      ],
+      "../node_modules/@editorjs/editorjs/types/tools/index.d.ts": [
+        "../node_modules/@editorjs/editorjs/types/tools/block-tool-data.d.ts",
+        "../node_modules/@editorjs/editorjs/types/tools/block-tool.d.ts",
+        "../node_modules/@editorjs/editorjs/types/tools/hook-events.d.ts",
+        "../node_modules/@editorjs/editorjs/types/tools/inline-tool.d.ts",
+        "../node_modules/@editorjs/editorjs/types/tools/paste-events.d.ts",
+        "../node_modules/@editorjs/editorjs/types/tools/tool-config.d.ts",
+        "../node_modules/@editorjs/editorjs/types/tools/tool-settings.d.ts",
+        "../node_modules/@editorjs/editorjs/types/tools/tool.d.ts"
+      ],
+      "../node_modules/@editorjs/editorjs/types/tools/inline-tool.d.ts": [
+        "../node_modules/@editorjs/editorjs/types/index.d.ts",
+        "../node_modules/@editorjs/editorjs/types/tools/tool.d.ts"
+      ],
+      "../node_modules/@editorjs/editorjs/types/tools/tool-settings.d.ts": [
+        "../node_modules/@editorjs/editorjs/types/tools/index.d.ts",
+        "../node_modules/@editorjs/editorjs/types/tools/tool-config.d.ts"
+      ],
+      "../node_modules/@editorjs/editorjs/types/tools/tool.d.ts": [
+        "../node_modules/@editorjs/editorjs/types/configs/index.d.ts",
+        "../node_modules/@editorjs/editorjs/types/index.d.ts",
+        "../node_modules/@editorjs/editorjs/types/tools/tool-config.d.ts"
+      ],
+      "../src/crypto/index.ts": [
+        "../src/crypto/decrypt.ts",
+        "../src/crypto/digest.ts",
+        "../src/crypto/encrypt.ts",
+        "../src/crypto/getkeyfromderivedpassword.ts",
+        "../src/crypto/getkeyfrompassword.ts",
+        "../src/crypto/utils.ts"
+      ],
+      "../src/index.ts": [
+        "../src/crypto/index.ts",
+        "../src/localdb/index.ts",
+        "../src/types/notes.ts",
+        "../src/types/user.ts"
+      ],
+      "../src/types/notes.ts": [
+        "../node_modules/@editorjs/editorjs/types/index.d.ts"
+      ]
+    },
+    "semanticDiagnosticsPerFile": [
+      "../node_modules/@editorjs/editorjs/types/api/block.d.ts",
+      "../node_modules/@editorjs/editorjs/types/api/blocks.d.ts",
+      "../node_modules/@editorjs/editorjs/types/api/caret.d.ts",
+      "../node_modules/@editorjs/editorjs/types/api/events.d.ts",
+      "../node_modules/@editorjs/editorjs/types/api/i18n.d.ts",
+      "../node_modules/@editorjs/editorjs/types/api/index.d.ts",
+      "../node_modules/@editorjs/editorjs/types/api/inline-toolbar.d.ts",
+      "../node_modules/@editorjs/editorjs/types/api/listeners.d.ts",
+      "../node_modules/@editorjs/editorjs/types/api/notifier.d.ts",
+      "../node_modules/@editorjs/editorjs/types/api/readonly.d.ts",
+      "../node_modules/@editorjs/editorjs/types/api/sanitizer.d.ts",
+      "../node_modules/@editorjs/editorjs/types/api/saver.d.ts",
+      "../node_modules/@editorjs/editorjs/types/api/selection.d.ts",
+      "../node_modules/@editorjs/editorjs/types/api/styles.d.ts",
+      "../node_modules/@editorjs/editorjs/types/api/toolbar.d.ts",
+      "../node_modules/@editorjs/editorjs/types/api/tooltip.d.ts",
+      "../node_modules/@editorjs/editorjs/types/block-tunes/block-tune.d.ts",
+      "../node_modules/@editorjs/editorjs/types/block-tunes/index.d.ts",
+      "../node_modules/@editorjs/editorjs/types/configs/conversion-config.ts",
+      "../node_modules/@editorjs/editorjs/types/configs/editor-config.d.ts",
+      "../node_modules/@editorjs/editorjs/types/configs/i18n-config.d.ts",
+      "../node_modules/@editorjs/editorjs/types/configs/i18n-dictionary.d.ts",
+      "../node_modules/@editorjs/editorjs/types/configs/index.d.ts",
+      "../node_modules/@editorjs/editorjs/types/configs/log-levels.d.ts",
+      "../node_modules/@editorjs/editorjs/types/configs/paste-config.d.ts",
+      "../node_modules/@editorjs/editorjs/types/configs/sanitizer-config.d.ts",
+      "../node_modules/@editorjs/editorjs/types/data-formats/block-data.d.ts",
+      "../node_modules/@editorjs/editorjs/types/data-formats/index.d.ts",
+      "../node_modules/@editorjs/editorjs/types/data-formats/output-data.d.ts",
+      "../node_modules/@editorjs/editorjs/types/index.d.ts",
+      "../node_modules/@editorjs/editorjs/types/tools/block-tool-data.d.ts",
+      "../node_modules/@editorjs/editorjs/types/tools/block-tool.d.ts",
+      "../node_modules/@editorjs/editorjs/types/tools/hook-events.d.ts",
+      "../node_modules/@editorjs/editorjs/types/tools/index.d.ts",
+      "../node_modules/@editorjs/editorjs/types/tools/inline-tool.d.ts",
+      "../node_modules/@editorjs/editorjs/types/tools/paste-events.d.ts",
+      "../node_modules/@editorjs/editorjs/types/tools/tool-config.d.ts",
+      "../node_modules/@editorjs/editorjs/types/tools/tool-settings.d.ts",
+      "../node_modules/@editorjs/editorjs/types/tools/tool.d.ts",
+      "../node_modules/@types/base-64/index.d.ts",
+      "../node_modules/ava/index.d.ts",
+      "../node_modules/codex-notifier/index.d.ts",
+      "../node_modules/codex-tooltip/index.d.ts",
+      "../node_modules/isomorphic-webcrypto/index.d.ts",
+      "../node_modules/localforage/typings/localforage.d.ts",
+      "../node_modules/typescript/lib/lib.dom.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.collection.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.core.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.generator.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.iterable.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.promise.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.proxy.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.reflect.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.symbol.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
+      "../node_modules/typescript/lib/lib.es2016.array.include.d.ts",
+      "../node_modules/typescript/lib/lib.es2016.d.ts",
+      "../node_modules/typescript/lib/lib.es2017.d.ts",
+      "../node_modules/typescript/lib/lib.es2017.intl.d.ts",
+      "../node_modules/typescript/lib/lib.es2017.object.d.ts",
+      "../node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts",
+      "../node_modules/typescript/lib/lib.es2017.string.d.ts",
+      "../node_modules/typescript/lib/lib.es2017.typedarrays.d.ts",
+      "../node_modules/typescript/lib/lib.es5.d.ts",
+      "../src/crypto/changekey.ts",
+      "../src/crypto/crypto.spec.ts",
+      "../src/crypto/decrypt.ts",
+      "../src/crypto/digest.ts",
+      "../src/crypto/encrypt.ts",
+      "../src/crypto/getkeyfromderivedpassword.ts",
+      "../src/crypto/getkeyfrompassword.ts",
+      "../src/crypto/index.ts",
+      "../src/crypto/utils.ts",
+      "../src/index.spec.ts",
+      "../src/index.ts",
+      "../src/localdb/index.ts",
+      "../src/localdb/localdb.spec.ts",
+      "../src/types/localforage-memorystoragedriver.d.ts",
+      "../src/types/notes.ts",
+      "../src/types/user.ts"
+    ]
+  },
+  "version": "4.0.2"
+}

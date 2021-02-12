@@ -1,0 +1,37 @@
+import test from 'ava';
+import decrypt from './decrypt';
+import digest from './digest';
+import encrypt from './encrypt';
+import getKeyFromDerivedPassword from './getKeyFromDerivedPassword';
+import { arrayBufferToString, base64ToUint8Array, generateNonce, generateSalt, stringToArrayBuffer, uint8ArrayToBase64, } from './utils';
+const PASSWORD = '$ome_sTr0ng-p4ssw0rd_1234';
+test('password-based key with salt', async (t) => {
+    const randomSalt = generateSalt();
+    const passwordKey = await getKeyFromDerivedPassword(PASSWORD, randomSalt);
+    t.truthy(passwordKey);
+});
+test('convert uint8array to base64', (t) => {
+    const from = generateSalt();
+    const to = uint8ArrayToBase64(from);
+    t.deepEqual(from, base64ToUint8Array(to));
+});
+test('encrypt/descrypt JSON data', async (t) => {
+    const data = {
+        some: 'data',
+    };
+    const randomSalt = generateSalt();
+    const passwordKeyEncrypt = await getKeyFromDerivedPassword(PASSWORD, randomSalt);
+    const json = JSON.stringify(data);
+    const nonce = generateNonce();
+    const encryptedBuffer = await encrypt(passwordKeyEncrypt, nonce, stringToArrayBuffer(json));
+    const passwordKeyFull = await getKeyFromDerivedPassword(PASSWORD, randomSalt, true);
+    const decryptedData = await decrypt(passwordKeyFull, nonce, encryptedBuffer);
+    const decryptedJson = arrayBufferToString(decryptedData);
+    t.deepEqual(data, JSON.parse(decryptedJson));
+});
+test('hash message', async (t) => {
+    const message = 'This is a random message to be hashes';
+    const hash = await digest(message);
+    t.truthy(hash);
+});
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiY3J5cHRvLnNwZWMuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi8uLi8uLi9zcmMvY3J5cHRvL2NyeXB0by5zcGVjLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLE9BQU8sSUFBSSxNQUFNLEtBQUssQ0FBQztBQUN2QixPQUFPLE9BQU8sTUFBTSxXQUFXLENBQUM7QUFDaEMsT0FBTyxNQUFNLE1BQU0sVUFBVSxDQUFDO0FBQzlCLE9BQU8sT0FBTyxNQUFNLFdBQVcsQ0FBQztBQUNoQyxPQUFPLHlCQUF5QixNQUFNLDZCQUE2QixDQUFDO0FBQ3BFLE9BQU8sRUFDTCxtQkFBbUIsRUFDbkIsa0JBQWtCLEVBQ2xCLGFBQWEsRUFDYixZQUFZLEVBQ1osbUJBQW1CLEVBQ25CLGtCQUFrQixHQUNuQixNQUFNLFNBQVMsQ0FBQztBQUVqQixNQUFNLFFBQVEsR0FBRywyQkFBMkIsQ0FBQztBQUU3QyxJQUFJLENBQUMsOEJBQThCLEVBQUUsS0FBSyxFQUFFLENBQUMsRUFBRSxFQUFFO0lBQy9DLE1BQU0sVUFBVSxHQUFHLFlBQVksRUFBRSxDQUFDO0lBQ2xDLE1BQU0sV0FBVyxHQUFHLE1BQU0seUJBQXlCLENBQUMsUUFBUSxFQUFFLFVBQVUsQ0FBQyxDQUFDO0lBRTFFLENBQUMsQ0FBQyxNQUFNLENBQUMsV0FBVyxDQUFDLENBQUM7QUFDeEIsQ0FBQyxDQUFDLENBQUM7QUFFSCxJQUFJLENBQUMsOEJBQThCLEVBQUUsQ0FBQyxDQUFDLEVBQUUsRUFBRTtJQUN6QyxNQUFNLElBQUksR0FBRyxZQUFZLEVBQUUsQ0FBQztJQUM1QixNQUFNLEVBQUUsR0FBRyxrQkFBa0IsQ0FBQyxJQUFJLENBQUMsQ0FBQztJQUVwQyxDQUFDLENBQUMsU0FBUyxDQUFDLElBQUksRUFBRSxrQkFBa0IsQ0FBQyxFQUFFLENBQUMsQ0FBQyxDQUFDO0FBQzVDLENBQUMsQ0FBQyxDQUFDO0FBRUgsSUFBSSxDQUFDLDRCQUE0QixFQUFFLEtBQUssRUFBRSxDQUFDLEVBQUUsRUFBRTtJQUM3QyxNQUFNLElBQUksR0FBRztRQUNYLElBQUksRUFBRSxNQUFNO0tBQ2IsQ0FBQztJQUVGLE1BQU0sVUFBVSxHQUFHLFlBQVksRUFBRSxDQUFDO0lBQ2xDLE1BQU0sa0JBQWtCLEdBQUcsTUFBTSx5QkFBeUIsQ0FBQyxRQUFRLEVBQUUsVUFBVSxDQUFDLENBQUM7SUFDakYsTUFBTSxJQUFJLEdBQUcsSUFBSSxDQUFDLFNBQVMsQ0FBQyxJQUFJLENBQUMsQ0FBQztJQUNsQyxNQUFNLEtBQUssR0FBRyxhQUFhLEVBQUUsQ0FBQztJQUM5QixNQUFNLGVBQWUsR0FBRyxNQUFNLE9BQU8sQ0FBQyxrQkFBa0IsRUFBRSxLQUFLLEVBQUUsbUJBQW1CLENBQUMsSUFBSSxDQUFDLENBQUMsQ0FBQztJQUU1RixNQUFNLGVBQWUsR0FBRyxNQUFNLHlCQUF5QixDQUFDLFFBQVEsRUFBRSxVQUFVLEVBQUUsSUFBSSxDQUFDLENBQUM7SUFDcEYsTUFBTSxhQUFhLEdBQUcsTUFBTSxPQUFPLENBQUMsZUFBZSxFQUFFLEtBQUssRUFBRSxlQUFlLENBQUMsQ0FBQztJQUM3RSxNQUFNLGFBQWEsR0FBRyxtQkFBbUIsQ0FBQyxhQUFhLENBQUMsQ0FBQztJQUV6RCxDQUFDLENBQUMsU0FBUyxDQUFDLElBQUksRUFBRSxJQUFJLENBQUMsS0FBSyxDQUFDLGFBQWEsQ0FBQyxDQUFDLENBQUM7QUFDL0MsQ0FBQyxDQUFDLENBQUM7QUFFSCxJQUFJLENBQUMsY0FBYyxFQUFFLEtBQUssRUFBRSxDQUFDLEVBQUUsRUFBRTtJQUMvQixNQUFNLE9BQU8sR0FBRyx1Q0FBdUMsQ0FBQztJQUN4RCxNQUFNLElBQUksR0FBRyxNQUFNLE1BQU0sQ0FBQyxPQUFPLENBQUMsQ0FBQztJQUVuQyxDQUFDLENBQUMsTUFBTSxDQUFDLElBQUksQ0FBQyxDQUFDO0FBQ2pCLENBQUMsQ0FBQyxDQUFDIn0=
