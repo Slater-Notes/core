@@ -1,5 +1,5 @@
 declare class localDB {
-    store: undefined | LocalForage;
+    store: any;
     constructor(isTest?: boolean);
     get: (key: string) => Promise<string | ArrayBuffer | undefined>;
     set: (key: string, value: string | ArrayBuffer) => Promise<void>;

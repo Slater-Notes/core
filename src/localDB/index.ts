@@ -2,7 +2,7 @@ import localforage from 'localforage';
 import memoryStorageDriver from 'localforage-memoryStorageDriver';
 
 class localDB {
-  store: undefined | LocalForage;
+  store;
 
   constructor(isTest?: boolean) {
     if (isTest) {

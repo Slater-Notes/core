@@ -112,8 +112,8 @@
         "affectsGlobalScope": true
       },
       "../src/localdb/index.ts": {
-        "version": "cda0e455a43213328b4726d50178d5914e72c4f3d1d2e356b37c2874c2b2017a",
-        "signature": "ae87a2340955edcbe73ddee0f4d10d3caed095f9884ae8aa025f6466736beca2",
+        "version": "ebc0a7fd311a8d2bac51cc5989d7b13fe09fac084b55b3f5b9a3639d542ff6e3",
+        "signature": "93d2d9927df421d38b49a9890871f57c5d9382c73c05b68f5fe7801ccba4d742",
         "affectsGlobalScope": false
       },
       "../node_modules/isomorphic-webcrypto/index.d.ts": {
