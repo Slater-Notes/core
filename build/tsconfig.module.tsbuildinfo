@@ -137,7 +137,7 @@
         "affectsGlobalScope": false
       },
       "../src/crypto/getkeyfromderivedpassword.ts": {
-        "version": "3530d3d1e0ead7ff31e7c1ead56f7db8a4f774ca590d2aa620083f628735376a",
+        "version": "bb9db87de7770baa57ee2e0a77606744451dec6c960470845ec26c6978139183",
         "signature": "fd7e30604ca55ec52379a4efce50658fcbe3d050927128d5847815780a9b6a71",
         "affectsGlobalScope": false
       },

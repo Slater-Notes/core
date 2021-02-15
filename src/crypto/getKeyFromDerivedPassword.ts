@@ -14,7 +14,7 @@ const getKeyFromDerivedPassword = async (
       name: 'PBKDF2',
       salt,
       iterations,
-      hash: { name: 'SHA-512' },
+      hash: { name: 'SHA-256' },
     },
     passwordKey,
     { name: 'AES-GCM', length: 256 },
