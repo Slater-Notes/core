@@ -10,7 +10,12 @@ export const decode = (payload: ArrayBuffer) => {
 };
 
 export const stringToArrayBuffer = (payload: string): ArrayBuffer => {
-  return new TextEncoder().encode(payload).buffer;
+  const buf = new ArrayBuffer(payload.length);
+  const bufView = new Uint8Array(buf);
+  for (let i = 0, strLen = payload.length; i < strLen; i++) {
+    bufView[i] = payload.charCodeAt(i);
+  }
+  return buf;
 };
 
 export const arrayBufferToString = (payload: ArrayBuffer): string => {
