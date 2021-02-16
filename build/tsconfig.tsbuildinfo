@@ -127,8 +127,8 @@
         "affectsGlobalScope": false
       },
       "../src/crypto/utils.ts": {
-        "version": "c0b40dbad070f8d77df6635babf92b950fcef31b006157f740fef48503eb667e",
-        "signature": "1063520419794691436477e12b52192c3a06f075c304353144b20b052f69689f",
+        "version": "c73e44f543b15bd190869b4bdaff7646ac4a195cae5acf7c6adbff2684a90b58",
+        "signature": "c2bd8183885852a85434f100335c7af056dbcfa51570b1cd0da24bdb77c1f960",
         "affectsGlobalScope": false
       },
       "../src/crypto/getkeyfrompassword.ts": {
@@ -137,8 +137,8 @@
         "affectsGlobalScope": false
       },
       "../src/crypto/getkeyfromderivedpassword.ts": {
-        "version": "bb9db87de7770baa57ee2e0a77606744451dec6c960470845ec26c6978139183",
-        "signature": "fd7e30604ca55ec52379a4efce50658fcbe3d050927128d5847815780a9b6a71",
+        "version": "b320f1be2305c901a19c8978e9887c49e439059481edd843a8781a08a95f0cf5",
+        "signature": "5fb8c8f638b1cb337f9d5b85e7783884bee4816a55f02f623421140b581ab342",
         "affectsGlobalScope": false
       },
       "../src/crypto/decrypt.ts": {
@@ -156,9 +156,14 @@
         "signature": "ce4b66a44776ba89858d83a78502caaafd166f6807aa08c1c82b5b84d8e20bd7",
         "affectsGlobalScope": false
       },
+      "../src/crypto/exportkey.ts": {
+        "version": "24595acbe3f4fa72a5cba8f9a74adac8c74775dbb4bb19ac96225007c98ed655",
+        "signature": "1cf55a42dba6433ec473d3b3a7d6ebde58f3bf151a9440ffe25b2ee053318a54",
+        "affectsGlobalScope": false
+      },
       "../src/crypto/index.ts": {
-        "version": "81a20e1fdf49e674fc365462dee0d321b1f0711ea8f2fde9759881da2d403a48",
-        "signature": "007fabadcaf8c1d23285d3559246ab945aee2f28b0e06b13163c9e58535fca0e",
+        "version": "1bf8271c9951a04b2d2838bb42215caccc3ae4dd4411216e47e9b218051ed27b",
+        "signature": "f5250329e859790a58b82409626e845e0f65e87e286308b25394a90429b34eb9",
         "affectsGlobalScope": false
       },
       "../node_modules/@editorjs/editorjs/types/tools/block-tool-data.d.ts": {
@@ -381,7 +386,7 @@
         "affectsGlobalScope": false
       },
       "../src/index.spec.ts": {
-        "version": "7edb9f1a9f05407225212e712f9807081528ebf828412a3f627180ec6e638361",
+        "version": "4634fd12134046c30711dc772e40eefb39df6647651e856cc9ddc5b72d6e0dc9",
         "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
         "affectsGlobalScope": false
       },
@@ -391,7 +396,7 @@
         "affectsGlobalScope": false
       },
       "../src/crypto/crypto.spec.ts": {
-        "version": "bb1db6a552fd5153e191a15ae2587a1daaa86ddef348325a55ca378242f74315",
+        "version": "310f7c0c24d43f175dfabbcbf27b1bded500396a0bf5dc5aa9176ffa4b508de2",
         "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
         "affectsGlobalScope": false
       },
@@ -563,6 +568,7 @@
         "../src/crypto/decrypt.ts",
         "../src/crypto/digest.ts",
         "../src/crypto/encrypt.ts",
+        "../src/crypto/exportkey.ts",
         "../src/crypto/getkeyfromderivedpassword.ts",
         "../src/crypto/utils.ts"
       ],
@@ -576,6 +582,10 @@
       "../src/crypto/encrypt.ts": [
         "../node_modules/isomorphic-webcrypto/index.d.ts"
       ],
+      "../src/crypto/exportkey.ts": [
+        "../node_modules/isomorphic-webcrypto/index.d.ts",
+        "../src/crypto/utils.ts"
+      ],
       "../src/crypto/getkeyfromderivedpassword.ts": [
         "../node_modules/isomorphic-webcrypto/index.d.ts",
         "../src/crypto/getkeyfrompassword.ts"
@@ -588,6 +598,7 @@
         "../src/crypto/decrypt.ts",
         "../src/crypto/digest.ts",
         "../src/crypto/encrypt.ts",
+        "../src/crypto/exportkey.ts",
         "../src/crypto/getkeyfromderivedpassword.ts",
         "../src/crypto/getkeyfrompassword.ts",
         "../src/crypto/utils.ts"
@@ -740,6 +751,7 @@
         "../src/crypto/decrypt.ts",
         "../src/crypto/digest.ts",
         "../src/crypto/encrypt.ts",
+        "../src/crypto/exportkey.ts",
         "../src/crypto/getkeyfromderivedpassword.ts",
         "../src/crypto/getkeyfrompassword.ts",
         "../src/crypto/utils.ts"
@@ -825,6 +837,7 @@
       "../src/crypto/decrypt.ts",
       "../src/crypto/digest.ts",
       "../src/crypto/encrypt.ts",
+      "../src/crypto/exportkey.ts",
       "../src/crypto/getkeyfromderivedpassword.ts",
       "../src/crypto/getkeyfrompassword.ts",
       "../src/crypto/index.ts",

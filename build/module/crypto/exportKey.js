@@ -1,0 +1,9 @@
+import crypto from 'isomorphic-webcrypto';
+import { arrayBufferToString, stringToBase64 } from './utils';
+const exportKey = async (key) => {
+    const rawKey = await crypto.subtle.exportKey('raw', key);
+    const rawKeyString = arrayBufferToString(rawKey);
+    return stringToBase64(rawKeyString);
+};
+export default exportKey;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiZXhwb3J0S2V5LmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiLi4vLi4vLi4vc3JjL2NyeXB0by9leHBvcnRLZXkudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsT0FBTyxNQUFNLE1BQU0sc0JBQXNCLENBQUM7QUFDMUMsT0FBTyxFQUFFLG1CQUFtQixFQUFFLGNBQWMsRUFBRSxNQUFNLFNBQVMsQ0FBQztBQUU5RCxNQUFNLFNBQVMsR0FBRyxLQUFLLEVBQUUsR0FBYyxFQUFFLEVBQUU7SUFDekMsTUFBTSxNQUFNLEdBQUcsTUFBTSxNQUFNLENBQUMsTUFBTSxDQUFDLFNBQVMsQ0FBQyxLQUFLLEVBQUUsR0FBRyxDQUFDLENBQUM7SUFDekQsTUFBTSxZQUFZLEdBQUcsbUJBQW1CLENBQUMsTUFBTSxDQUFDLENBQUM7SUFDakQsT0FBTyxjQUFjLENBQUMsWUFBWSxDQUFDLENBQUM7QUFDdEMsQ0FBQyxDQUFDO0FBRUYsZUFBZSxTQUFTLENBQUMifQ==

@@ -13,7 +13,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.digest = exports.getKeyFromPassword = exports.getKeyFromDerivedPassword = exports.encrypt = exports.decrypt = void 0;
+exports.exportKey = exports.digest = exports.getKeyFromPassword = exports.getKeyFromDerivedPassword = exports.encrypt = exports.decrypt = void 0;
 const getKeyFromDerivedPassword_1 = __importDefault(require("./getKeyFromDerivedPassword"));
 exports.getKeyFromDerivedPassword = getKeyFromDerivedPassword_1.default;
 const getKeyFromPassword_1 = __importDefault(require("./getKeyFromPassword"));
@@ -24,5 +24,7 @@ const encrypt_1 = __importDefault(require("./encrypt"));
 exports.encrypt = encrypt_1.default;
 const digest_1 = __importDefault(require("./digest"));
 exports.digest = digest_1.default;
+const exportKey_1 = __importDefault(require("./exportKey"));
+exports.exportKey = exportKey_1.default;
 __exportStar(require("./utils"), exports);
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiaW5kZXguanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi8uLi8uLi9zcmMvY3J5cHRvL2luZGV4LnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7Ozs7QUFBQSw0RkFBb0U7QUFNekMsb0NBTnBCLG1DQUF5QixDQU1vQjtBQUxwRCw4RUFBc0Q7QUFLQSw2QkFML0MsNEJBQWtCLENBSytDO0FBSnhFLHdEQUFnQztBQUl2QixrQkFKRixpQkFBTyxDQUlFO0FBSGhCLHdEQUFnQztBQUdkLGtCQUhYLGlCQUFPLENBR1c7QUFGekIsc0RBQThCO0FBRTRDLGlCQUZuRSxnQkFBTSxDQUVtRTtBQUNoRiwwQ0FBd0IifQ==
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiaW5kZXguanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi8uLi8uLi9zcmMvY3J5cHRvL2luZGV4LnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7Ozs7QUFBQSw0RkFBb0U7QUFPekMsb0NBUHBCLG1DQUF5QixDQU9vQjtBQU5wRCw4RUFBc0Q7QUFNQSw2QkFOL0MsNEJBQWtCLENBTStDO0FBTHhFLHdEQUFnQztBQUt2QixrQkFMRixpQkFBTyxDQUtFO0FBSmhCLHdEQUFnQztBQUlkLGtCQUpYLGlCQUFPLENBSVc7QUFIekIsc0RBQThCO0FBRzRDLGlCQUhuRSxnQkFBTSxDQUdtRTtBQUZoRiw0REFBb0M7QUFFOEMsb0JBRjNFLG1CQUFTLENBRTJFO0FBQzNGLDBDQUF3QiJ9

@@ -7,6 +7,7 @@ import {
   encrypt,
   getKeyFromPassword,
   digest,
+  exportKey,
 } from '.';
 
 test('exports localDB', (t) => {
@@ -30,4 +31,5 @@ test('exports crypto functions', (t) => {
   t.truthy(getKeyFromDerivedPassword);
   t.truthy(getKeyFromPassword);
   t.truthy(digest);
+  t.truthy(exportKey);
 });

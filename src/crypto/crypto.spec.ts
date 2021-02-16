@@ -2,6 +2,7 @@ import test from 'ava';
 import decrypt from './decrypt';
 import digest from './digest';
 import encrypt from './encrypt';
+import exportKey from './exportKey';
 import getKeyFromDerivedPassword from './getKeyFromDerivedPassword';
 import {
   arrayBufferToString,
@@ -51,4 +52,14 @@ test('hash message', async (t) => {
   const hash = await digest(message);
 
   t.truthy(hash);
+});
+
+test('export key', async (t) => {
+  const password = 'abc123';
+  const salt = generateSalt();
+
+  const passKey = await getKeyFromDerivedPassword(password, salt, false, 1, true);
+  const extractedKey = await exportKey(passKey);
+
+  t.truthy(typeof extractedKey === 'string');
 });

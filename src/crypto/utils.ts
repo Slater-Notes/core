@@ -24,7 +24,6 @@ export const arrayBufferToString = (payload: ArrayBuffer): string => {
 
 export const uint8ArrayToBase64 = (payload: Uint8Array) => {
   return base64.encode(String.fromCharCode.apply(null, payload));
-  // return Array.from(payload);
 };
 
 export const base64ToUint8Array = (payload: string) => {
@@ -35,6 +34,10 @@ export const base64ToUint8Array = (payload: string) => {
       .map((char) => char.charCodeAt(0)),
   );
   // return Uint8Array.from(payload);
+};
+
+export const stringToBase64 = (payload: string): string => {
+  return base64.encode(payload);
 };
 
 export const generateSalt = () => {
