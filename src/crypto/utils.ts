@@ -13,8 +13,8 @@ export const stringToArrayBuffer = (payload: string): ArrayBuffer => {
   return new TextEncoder().encode(payload).buffer;
 };
 
-export const arrayBufferToString = (payload: ArrayBuffer) => {
-  return new TextDecoder().decode(new Uint8Array(payload));
+export const arrayBufferToString = (payload: ArrayBuffer): string => {
+  return String.fromCharCode.apply(null, new Uint8Array(payload));
 };
 
 export const uint8ArrayToBase64 = (payload: Uint8Array) => {
