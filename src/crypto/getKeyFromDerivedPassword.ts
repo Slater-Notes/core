@@ -6,6 +6,7 @@ const getKeyFromDerivedPassword = async (
   salt: Uint8Array,
   fullUsage = false,
   iterations = 500000,
+  extractable = false,
 ) => {
   const passwordKey = await getKeyFromPassword(password);
 
@@ -18,7 +19,7 @@ const getKeyFromDerivedPassword = async (
     },
     passwordKey,
     { name: 'AES-GCM', length: 256 },
-    false,
+    extractable,
     fullUsage ? ['encrypt', 'decrypt'] : ['encrypt'],
   );
 };
