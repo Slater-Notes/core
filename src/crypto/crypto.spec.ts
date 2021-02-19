@@ -6,10 +6,12 @@ import exportKey from './exportKey';
 import getKeyFromDerivedPassword from './getKeyFromDerivedPassword';
 import {
   arrayBufferToString,
+  base64ToString,
   base64ToUint8Array,
   generateNonce,
   generateSalt,
   stringToArrayBuffer,
+  stringToBase64,
   uint8ArrayToBase64,
 } from './utils';
 
@@ -27,6 +29,15 @@ test('convert uint8array to base64', (t) => {
   const to = uint8ArrayToBase64(from);
 
   t.deepEqual(from, base64ToUint8Array(to));
+});
+
+test('encode/decode base64', (t) => {
+  const data = 'abc123';
+  const encoded = stringToBase64(data);
+  t.truthy(encoded);
+
+  const decoded = base64ToString(encoded);
+  t.deepEqual(decoded, 'abc123');
 });
 
 test('encrypt/descrypt JSON data', async (t) => {

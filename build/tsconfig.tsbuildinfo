@@ -127,8 +127,8 @@
         "affectsGlobalScope": false
       },
       "../src/crypto/utils.ts": {
-        "version": "c73e44f543b15bd190869b4bdaff7646ac4a195cae5acf7c6adbff2684a90b58",
-        "signature": "c2bd8183885852a85434f100335c7af056dbcfa51570b1cd0da24bdb77c1f960",
+        "version": "de57cf094a4152f0de7a9109504466cf2bd648366f366db2ee52589d2d884d38",
+        "signature": "59c9fe1b7f1640b785322fd94eede2bb1dfea7e9e952fec38c761e126c3656a8",
         "affectsGlobalScope": false
       },
       "../src/crypto/getkeyfrompassword.ts": {
@@ -376,8 +376,8 @@
         "affectsGlobalScope": false
       },
       "../src/types/user.ts": {
-        "version": "83d593dbc26b9b33a1c34237fcdae763d59c6fcdf2f5759141ff4a6c8f69645e",
-        "signature": "05106c791dcd3ddab2549bece147f41f3d7afe30d83227c4c077fbc92a309452",
+        "version": "b55d5fa2bab6890938ae43c751de6e49cd6fb17c657a6ab01d9353b3c27f5fa7",
+        "signature": "87babfe9bef4ebb14998cdb86a7c2aeb40ae48fc29697e687955edae84647255",
         "affectsGlobalScope": false
       },
       "../src/index.ts": {
@@ -396,7 +396,7 @@
         "affectsGlobalScope": false
       },
       "../src/crypto/crypto.spec.ts": {
-        "version": "310f7c0c24d43f175dfabbcbf27b1bded500396a0bf5dc5aa9176ffa4b508de2",
+        "version": "666f91253d0b89787d53bd6f95962ee568d231d1ae977b5a8789d9d5b5b6c68e",
         "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
         "affectsGlobalScope": false
       },

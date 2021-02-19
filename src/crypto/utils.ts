@@ -33,11 +33,14 @@ export const base64ToUint8Array = (payload: string) => {
       .split('')
       .map((char) => char.charCodeAt(0)),
   );
-  // return Uint8Array.from(payload);
 };
 
 export const stringToBase64 = (payload: string): string => {
   return base64.encode(payload);
+};
+
+export const base64ToString = (payload: string): string => {
+  return base64.decode(payload);
 };
 
 export const generateSalt = () => {
