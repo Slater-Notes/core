@@ -4,5 +4,7 @@ export interface UserItem {
     readonly iterations: number;
     readonly fileCollectionNonce: string;
     readonly settingsNonce: string;
+    cloudSyncSessionToken?: string;
+    cloudLastSynced?: number;
     username: string;
 }
