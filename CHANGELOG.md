@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.4](https://github.com/slater-notes/core/compare/v0.1.3...v0.1.4) (2021-03-02)
+
+
+### Bug Fixes
+
+* **utils:** fix encoding methods ([b693e9e](https://github.com/slater-notes/core/commit/b693e9e51557f0a9a89f846c48d56e414f151850))
+* fix window undefined issue in web worker ([5e283b9](https://github.com/slater-notes/core/commit/5e283b9c53cf04bf45c4189872da641c24177493))
+
 ### [0.1.3](https://github.com/slater-notes/core/compare/v0.1.2...v0.1.3) (2021-02-19)
 
 
