@@ -1,5 +1,3 @@
-import crypto from 'isomorphic-webcrypto';
-
 const decrypt = async (key: CryptoKey, nonce: Uint8Array, encryptedBuffer: ArrayBuffer) => {
   const decryptedBuffer = await crypto.subtle.decrypt(
     {

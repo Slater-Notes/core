@@ -1,4 +1,3 @@
-import crypto from 'isomorphic-webcrypto';
 import base64 from 'base-64';
 
 export const encode = (payload: string) => {

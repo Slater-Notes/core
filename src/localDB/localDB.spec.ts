@@ -6,6 +6,8 @@ import encrypt from '../crypto/encrypt';
 import getKeyFromDerivedPassword from '../crypto/getKeyFromDerivedPassword';
 import { arrayBufferToString, generateSalt, stringToArrayBuffer } from '../crypto/utils';
 
+globalThis.crypto = crypto;
+
 // - Save unencrypted notes as encrypted
 test('save/load encrypted buffer data', async (t) => {
   const data = {

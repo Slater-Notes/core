@@ -1,4 +1,3 @@
-import crypto from 'isomorphic-webcrypto';
 import getKeyFromPassword from './getKeyFromPassword';
 
 const getKeyFromDerivedPassword = async (

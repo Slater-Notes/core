@@ -1,4 +1,3 @@
-import crypto from 'isomorphic-webcrypto';
 import { arrayBufferToString, stringToBase64 } from './utils';
 
 const exportKey = async (key: CryptoKey) => {

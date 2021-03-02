@@ -1,4 +1,3 @@
-import crypto from 'isomorphic-webcrypto';
 import { encode, uint8ArrayToBase64 } from './utils';
 
 const digest = async (message: string) => {

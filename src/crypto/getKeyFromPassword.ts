@@ -1,4 +1,3 @@
-import crypto from 'isomorphic-webcrypto';
 import { encode } from './utils';
 
 const getKeyFromPassword = async (password: string) => {
