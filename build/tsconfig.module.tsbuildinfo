@@ -116,48 +116,43 @@
         "signature": "93d2d9927df421d38b49a9890871f57c5d9382c73c05b68f5fe7801ccba4d742",
         "affectsGlobalScope": false
       },
-      "../node_modules/isomorphic-webcrypto/index.d.ts": {
-        "version": "b9866672228f20f099fce9847af26704ce6b3bfb15c7917ae9cf4eeb86625d63",
-        "signature": "b9866672228f20f099fce9847af26704ce6b3bfb15c7917ae9cf4eeb86625d63",
-        "affectsGlobalScope": false
-      },
-      "../node_modules/@types/base-64/index.d.ts": {
-        "version": "21d88c0d7029783f305bc1b481e7209efb933bddf0bd6b232e8ef5e18a4b350b",
-        "signature": "21d88c0d7029783f305bc1b481e7209efb933bddf0bd6b232e8ef5e18a4b350b",
+      "../node_modules/buffer/index.d.ts": {
+        "version": "4967529644e391115ca5592184d4b63980569adf60ee685f968fd59ab1557188",
+        "signature": "4967529644e391115ca5592184d4b63980569adf60ee685f968fd59ab1557188",
         "affectsGlobalScope": false
       },
       "../src/crypto/utils.ts": {
-        "version": "de57cf094a4152f0de7a9109504466cf2bd648366f366db2ee52589d2d884d38",
+        "version": "e19bd0d0ab86533fe57ea149e402064e04c20493ddaaf09a6525d00bafb1b4f5",
         "signature": "59c9fe1b7f1640b785322fd94eede2bb1dfea7e9e952fec38c761e126c3656a8",
         "affectsGlobalScope": false
       },
       "../src/crypto/getkeyfrompassword.ts": {
-        "version": "56d85040d11f43e2f51ce5263345ab503e028abaa26d2afbe9082534fa838921",
+        "version": "cee1235743c15bdca603a5846326ede49a39f4f2d8cdb78699e196329afb2404",
         "signature": "b6f139482b83be2f60f12a5ba3d3bd5c29114c611c60e276e33368b945a31526",
         "affectsGlobalScope": false
       },
       "../src/crypto/getkeyfromderivedpassword.ts": {
-        "version": "b320f1be2305c901a19c8978e9887c49e439059481edd843a8781a08a95f0cf5",
+        "version": "da2b8761989613b2b3c18620fb3b8d0e37c0865dfeb38635f707d1db632c821f",
         "signature": "5fb8c8f638b1cb337f9d5b85e7783884bee4816a55f02f623421140b581ab342",
         "affectsGlobalScope": false
       },
       "../src/crypto/decrypt.ts": {
-        "version": "f6b6eab60a819ce7db43188e2ad3942641d4ed650eaee4d3f8b33321c15dde9b",
+        "version": "90909fa388daeb2396f6e4f0fbf7b05cc1946ccfe02e689af4c7cd4eb7d43f71",
         "signature": "b771852ec4e52f26cd5bdb6ce882f49865fefb4d6547a307d81961302b8b7256",
         "affectsGlobalScope": false
       },
       "../src/crypto/encrypt.ts": {
-        "version": "d18944173c4f78f33fdbb214359b6dc248e812f6fcbaf09666c3d48394da6677",
+        "version": "947591d86b69f2b01e7ac95942edf034aadc4edde5bb1b7829b79845dd0f957b",
         "signature": "fc535da4c0b44d11167f26d5e3ce9faf8e8ebe23e6ed871de06963609e1fd188",
         "affectsGlobalScope": false
       },
       "../src/crypto/digest.ts": {
-        "version": "8f81559d603716cdb5564103d117f11650db9afe60b3e117aa9ab43df8218239",
+        "version": "f4752894a9402b79d245c69b890cc64cb4ddac561724b2ed2ef05fd1b7d94730",
         "signature": "ce4b66a44776ba89858d83a78502caaafd166f6807aa08c1c82b5b84d8e20bd7",
         "affectsGlobalScope": false
       },
       "../src/crypto/exportkey.ts": {
-        "version": "24595acbe3f4fa72a5cba8f9a74adac8c74775dbb4bb19ac96225007c98ed655",
+        "version": "f4c80e6a3f01be2b5bc65a4d591e2a3e1bb3938bd0c3151a3014c3d8ca5ce927",
         "signature": "1cf55a42dba6433ec473d3b3a7d6ebde58f3bf151a9440ffe25b2ee053318a54",
         "affectsGlobalScope": false
       },
@@ -395,13 +390,18 @@
         "signature": "78134368919eb80d809b54deae765c5d9a8728dca8a0e6cf1879b66c2c5a6054",
         "affectsGlobalScope": false
       },
+      "../node_modules/isomorphic-webcrypto/index.d.ts": {
+        "version": "b9866672228f20f099fce9847af26704ce6b3bfb15c7917ae9cf4eeb86625d63",
+        "signature": "b9866672228f20f099fce9847af26704ce6b3bfb15c7917ae9cf4eeb86625d63",
+        "affectsGlobalScope": false
+      },
       "../src/crypto/crypto.spec.ts": {
-        "version": "666f91253d0b89787d53bd6f95962ee568d231d1ae977b5a8789d9d5b5b6c68e",
+        "version": "17ac78ca90cb243ea8706b29076be0b86053fc9b5c9fc194179492b8f2155fe7",
         "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
         "affectsGlobalScope": false
       },
       "../src/localdb/localdb.spec.ts": {
-        "version": "64832aead34dadb4460216d8f1dced07979d1d8ce789a7c3a6b8c9bed21fd99c",
+        "version": "8c415ef3e5f8e74842ef0a4f3841df40623aff9b25f6c3be789252de430bc33f",
         "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
         "affectsGlobalScope": false
       },
@@ -565,6 +565,7 @@
       ],
       "../src/crypto/crypto.spec.ts": [
         "../node_modules/ava/index.d.ts",
+        "../node_modules/isomorphic-webcrypto/index.d.ts",
         "../src/crypto/decrypt.ts",
         "../src/crypto/digest.ts",
         "../src/crypto/encrypt.ts",
@@ -572,26 +573,16 @@
         "../src/crypto/getkeyfromderivedpassword.ts",
         "../src/crypto/utils.ts"
       ],
-      "../src/crypto/decrypt.ts": [
-        "../node_modules/isomorphic-webcrypto/index.d.ts"
-      ],
       "../src/crypto/digest.ts": [
-        "../node_modules/isomorphic-webcrypto/index.d.ts",
         "../src/crypto/utils.ts"
       ],
-      "../src/crypto/encrypt.ts": [
-        "../node_modules/isomorphic-webcrypto/index.d.ts"
-      ],
       "../src/crypto/exportkey.ts": [
-        "../node_modules/isomorphic-webcrypto/index.d.ts",
         "../src/crypto/utils.ts"
       ],
       "../src/crypto/getkeyfromderivedpassword.ts": [
-        "../node_modules/isomorphic-webcrypto/index.d.ts",
         "../src/crypto/getkeyfrompassword.ts"
       ],
       "../src/crypto/getkeyfrompassword.ts": [
-        "../node_modules/isomorphic-webcrypto/index.d.ts",
         "../src/crypto/utils.ts"
       ],
       "../src/crypto/index.ts": [
@@ -604,8 +595,7 @@
         "../src/crypto/utils.ts"
       ],
       "../src/crypto/utils.ts": [
-        "../node_modules/@types/base-64/index.d.ts",
-        "../node_modules/isomorphic-webcrypto/index.d.ts"
+        "../node_modules/buffer/index.d.ts"
       ],
       "../src/index.spec.ts": [
         "../node_modules/ava/index.d.ts",
@@ -806,8 +796,8 @@
       "../node_modules/@editorjs/editorjs/types/tools/tool-config.d.ts",
       "../node_modules/@editorjs/editorjs/types/tools/tool-settings.d.ts",
       "../node_modules/@editorjs/editorjs/types/tools/tool.d.ts",
-      "../node_modules/@types/base-64/index.d.ts",
       "../node_modules/ava/index.d.ts",
+      "../node_modules/buffer/index.d.ts",
       "../node_modules/codex-notifier/index.d.ts",
       "../node_modules/codex-tooltip/index.d.ts",
       "../node_modules/isomorphic-webcrypto/index.d.ts",

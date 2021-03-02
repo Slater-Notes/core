@@ -14,6 +14,9 @@ import {
   stringToBase64,
   uint8ArrayToBase64,
 } from './utils';
+import crypto from 'isomorphic-webcrypto';
+
+globalThis.crypto = crypto;
 
 const PASSWORD = '$ome_sTr0ng-p4ssw0rd_1234';
 
@@ -24,14 +27,22 @@ test('password-based key with salt', async (t) => {
   t.truthy(passwordKey);
 });
 
+test('convert string to ArrayBuffer and back', (t) => {
+  const str = 'Hello, World!';
+  const ab = stringToArrayBuffer(str);
+  const andBackToString = arrayBufferToString(ab);
+
+  t.truthy(str === andBackToString);
+});
+
 test('convert uint8array to base64', (t) => {
   const from = generateSalt();
   const to = uint8ArrayToBase64(from);
 
-  t.deepEqual(from, base64ToUint8Array(to));
+  t.deepEqual(from.join(''), base64ToUint8Array(to).join(''));
 });
 
-test('encode/decode base64', (t) => {
+test('convert string to base64 and back', (t) => {
   const data = 'abc123';
   const encoded = stringToBase64(data);
   t.truthy(encoded);

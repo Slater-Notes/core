@@ -1,11 +1,11 @@
-import base64 from 'base-64';
+import buffer from 'buffer';
 
 export const encode = (payload: string) => {
   return new TextEncoder().encode(payload);
 };
 
 export const decode = (payload: ArrayBuffer) => {
-  return new TextDecoder().decode(new Uint8Array(payload));
+  return new TextDecoder().decode(payload);
 };
 
 export const stringToArrayBuffer = (payload: string): ArrayBuffer => {
@@ -18,28 +18,35 @@ export const stringToArrayBuffer = (payload: string): ArrayBuffer => {
 };
 
 export const arrayBufferToString = (payload: ArrayBuffer): string => {
-  return String.fromCharCode.apply(null, new Uint8Array(payload));
+  const bufView = new Uint8Array(payload);
+  const length = bufView.length;
+  let result = '';
+  let addition = Math.pow(2, 8) - 1;
+
+  for (let i = 0; i < length; i += addition) {
+    if (i + addition > length) {
+      addition = length - i;
+    }
+    result += String.fromCharCode.apply(null, bufView.subarray(i, i + addition));
+  }
+
+  return result;
 };
 
-export const uint8ArrayToBase64 = (payload: Uint8Array) => {
-  return base64.encode(String.fromCharCode.apply(null, payload));
+export const uint8ArrayToBase64 = (payload: Uint8Array): string => {
+  return buffer.Buffer.from(payload).toString('base64');
 };
 
-export const base64ToUint8Array = (payload: string) => {
-  return new Uint8Array(
-    base64
-      .decode(payload)
-      .split('')
-      .map((char) => char.charCodeAt(0)),
-  );
+export const base64ToUint8Array = (payload: string): Uint8Array => {
+  return buffer.Buffer.from(payload, 'base64');
 };
 
 export const stringToBase64 = (payload: string): string => {
-  return base64.encode(payload);
+  return buffer.Buffer.from(payload, 'utf8').toString('base64');
 };
 
 export const base64ToString = (payload: string): string => {
-  return base64.decode(payload);
+  return buffer.Buffer.from(payload, 'base64').toString('utf8');
 };
 
 export const generateSalt = () => {
