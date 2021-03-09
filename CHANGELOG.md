@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.2.0](https://github.com/slater-notes/core/compare/v0.1.4...v0.2.0) (2021-03-09)
+
+
+### ⚠ BREAKING CHANGES
+
+* **utils:** Utils methods have been renamed.
+
+* **utils:** major code changes to utils methods ([fd39ea8](https://github.com/slater-notes/core/commit/fd39ea8e19d855c5d9c98c5eab462cae5ca89e0a))
+
 ### [0.1.4](https://github.com/slater-notes/core/compare/v0.1.3...v0.1.4) (2021-03-02)
 
 
