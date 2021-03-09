@@ -15,11 +15,11 @@ class localDB {
     });
   }
 
-  get = async (key: string): Promise<string | ArrayBuffer | undefined> => {
+  get = async (key: string): Promise<string | ArrayBuffer | Uint8Array | undefined> => {
     return await this.store.getItem(key);
   };
 
-  set = async (key: string, value: string | ArrayBuffer) => {
+  set = async (key: string, value: string | ArrayBuffer | Uint8Array) => {
     await this.store.setItem(key, value);
   };
 }

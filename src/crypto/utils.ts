@@ -1,44 +1,19 @@
 import buffer from 'buffer';
 
-export const encode = (payload: string) => {
-  return new TextEncoder().encode(payload);
+export const stringToBuffer = (payload: string): Uint8Array => {
+  return buffer.Buffer.from(payload, 'utf8').valueOf();
 };
 
-export const decode = (payload: ArrayBuffer) => {
-  return new TextDecoder().decode(payload);
+export const bufferToString = (payload: Uint8Array): string => {
+  return buffer.Buffer.from(payload).toString('utf8');
 };
 
-export const stringToArrayBuffer = (payload: string): ArrayBuffer => {
-  const buf = new ArrayBuffer(payload.length);
-  const bufView = new Uint8Array(buf);
-  for (let i = 0, strLen = payload.length; i < strLen; i++) {
-    bufView[i] = payload.charCodeAt(i);
-  }
-  return buf;
-};
-
-export const arrayBufferToString = (payload: ArrayBuffer): string => {
-  const bufView = new Uint8Array(payload);
-  const length = bufView.length;
-  let result = '';
-  let addition = Math.pow(2, 8) - 1;
-
-  for (let i = 0; i < length; i += addition) {
-    if (i + addition > length) {
-      addition = length - i;
-    }
-    result += String.fromCharCode.apply(null, bufView.subarray(i, i + addition));
-  }
-
-  return result;
-};
-
-export const uint8ArrayToBase64 = (payload: Uint8Array): string => {
+export const bufferToBase64 = (payload: Uint8Array): string => {
   return buffer.Buffer.from(payload).toString('base64');
 };
 
-export const base64ToUint8Array = (payload: string): Uint8Array => {
-  return buffer.Buffer.from(payload, 'base64');
+export const base64ToBuffer = (payload: string): Uint8Array => {
+  return buffer.Buffer.from(payload, 'base64').valueOf();
 };
 
 export const stringToBase64 = (payload: string): string => {

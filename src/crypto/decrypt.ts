@@ -1,14 +1,14 @@
-const decrypt = async (key: CryptoKey, nonce: Uint8Array, encryptedBuffer: ArrayBuffer) => {
-  const decryptedBuffer = await crypto.subtle.decrypt(
+const decrypt = async (key: CryptoKey, nonce: Uint8Array, payload: Uint8Array) => {
+  const data = await crypto.subtle.decrypt(
     {
       name: 'AES-GCM',
       iv: nonce,
     },
     key,
-    encryptedBuffer,
+    payload,
   );
 
-  return decryptedBuffer;
+  return new Uint8Array(data);
 };
 
 export default decrypt;

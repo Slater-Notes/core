@@ -6,7 +6,7 @@ const changeKey = async (
   oldNonce: Uint8Array,
   newKey: CryptoKey,
   newNonce: Uint8Array,
-  payload: ArrayBuffer,
+  payload: Uint8Array,
 ) => {
   const decryptedBuffer = await decrypt(oldKey, oldNonce, payload);
   return await encrypt(newKey, newNonce, decryptedBuffer);

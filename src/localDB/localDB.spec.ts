@@ -4,7 +4,7 @@ import localDB from '.';
 import decrypt from '../crypto/decrypt';
 import encrypt from '../crypto/encrypt';
 import getKeyFromDerivedPassword from '../crypto/getKeyFromDerivedPassword';
-import { arrayBufferToString, generateSalt, stringToArrayBuffer } from '../crypto/utils';
+import { bufferToString, generateSalt, stringToBuffer } from '../crypto/utils';
 
 globalThis.crypto = crypto;
 
@@ -19,16 +19,16 @@ test('save/load encrypted buffer data', async (t) => {
   const passwordKeyEncrypt = await getKeyFromDerivedPassword(password, randomSalt);
   const json = JSON.stringify(data);
   const nonce = crypto.getRandomValues(new Uint8Array(12));
-  const encryptedBuffer = await encrypt(passwordKeyEncrypt, nonce, stringToArrayBuffer(json));
+  const encryptedBuffer = await encrypt(passwordKeyEncrypt, nonce, stringToBuffer(json));
 
   const db = new localDB(true);
   await db.set('teststorage', encryptedBuffer);
 
   const passwordKeyFull = await getKeyFromDerivedPassword(password, randomSalt, true);
 
-  const load = (await db.get('teststorage')) as ArrayBuffer;
+  const load = (await db.get('teststorage')) as Uint8Array;
   const decryptedData = await decrypt(passwordKeyFull, nonce, load);
-  const decryptedJson = arrayBufferToString(decryptedData);
+  const decryptedJson = bufferToString(decryptedData);
 
   t.deepEqual(data, JSON.parse(decryptedJson));
 });

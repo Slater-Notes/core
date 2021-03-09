@@ -1,7 +1,7 @@
-import { encode } from './utils';
+import { stringToBuffer } from './utils';
 
 const getKeyFromPassword = async (password: string) => {
-  return await crypto.subtle.importKey('raw', encode(password), { name: 'PBKDF2' }, false, [
+  return await crypto.subtle.importKey('raw', stringToBuffer(password), { name: 'PBKDF2' }, false, [
     'deriveKey',
     'deriveBits',
   ]);

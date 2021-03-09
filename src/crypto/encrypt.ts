@@ -1,12 +1,14 @@
-const encrypt = async (key: CryptoKey, nonce: Uint8Array, buffer: ArrayBuffer) => {
-  return await crypto.subtle.encrypt(
+const encrypt = async (key: CryptoKey, nonce: Uint8Array, payload: Uint8Array) => {
+  const data = await crypto.subtle.encrypt(
     {
       name: 'AES-GCM',
       iv: nonce,
     },
     key,
-    buffer,
+    payload,
   );
+
+  return new Uint8Array(data);
 };
 
 export default encrypt;

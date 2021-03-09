@@ -112,8 +112,8 @@
         "affectsGlobalScope": true
       },
       "../src/localdb/index.ts": {
-        "version": "ebc0a7fd311a8d2bac51cc5989d7b13fe09fac084b55b3f5b9a3639d542ff6e3",
-        "signature": "93d2d9927df421d38b49a9890871f57c5d9382c73c05b68f5fe7801ccba4d742",
+        "version": "396a206f7cfd21d1958b1b4c8cdb3a21ae7947a0223d4f88d8815b31471a92f9",
+        "signature": "53a79ee8a9c56caea9aabb3799e9da916e470b05154535fdbe3e632786c762fd",
         "affectsGlobalScope": false
       },
       "../node_modules/buffer/index.d.ts": {
@@ -122,12 +122,12 @@
         "affectsGlobalScope": false
       },
       "../src/crypto/utils.ts": {
-        "version": "e19bd0d0ab86533fe57ea149e402064e04c20493ddaaf09a6525d00bafb1b4f5",
-        "signature": "59c9fe1b7f1640b785322fd94eede2bb1dfea7e9e952fec38c761e126c3656a8",
+        "version": "0d2c958714cf8089d7a34c420a549c1612b34eba532ce049a08fc7cb2962b660",
+        "signature": "be6e708da8977332963ccae25ddb4b1eba198ff016e58abe993c90a7154bd949",
         "affectsGlobalScope": false
       },
       "../src/crypto/getkeyfrompassword.ts": {
-        "version": "cee1235743c15bdca603a5846326ede49a39f4f2d8cdb78699e196329afb2404",
+        "version": "72cdaef496dc0ab797a873ee5fd922b83a8b7bec8773168251a97a235ac83b8b",
         "signature": "b6f139482b83be2f60f12a5ba3d3bd5c29114c611c60e276e33368b945a31526",
         "affectsGlobalScope": false
       },
@@ -137,22 +137,22 @@
         "affectsGlobalScope": false
       },
       "../src/crypto/decrypt.ts": {
-        "version": "90909fa388daeb2396f6e4f0fbf7b05cc1946ccfe02e689af4c7cd4eb7d43f71",
-        "signature": "b771852ec4e52f26cd5bdb6ce882f49865fefb4d6547a307d81961302b8b7256",
+        "version": "3e2b2dbaa73337f701086862ec3b9ee6eb1a308f3f845db63821af0ac6ff39ca",
+        "signature": "03a3c28b39b125881689f650fac38d45f1034a13de7037252a4a143ff5ae2e75",
         "affectsGlobalScope": false
       },
       "../src/crypto/encrypt.ts": {
-        "version": "947591d86b69f2b01e7ac95942edf034aadc4edde5bb1b7829b79845dd0f957b",
-        "signature": "fc535da4c0b44d11167f26d5e3ce9faf8e8ebe23e6ed871de06963609e1fd188",
+        "version": "651d77f74891dc1fe628836eaf841c9c20fc79b7ed573386372d6eb9ec1f61be",
+        "signature": "9600380a2e45101d4ed4d997505236818bc6b12c50fcab83e4cdc330341432e9",
         "affectsGlobalScope": false
       },
       "../src/crypto/digest.ts": {
-        "version": "f4752894a9402b79d245c69b890cc64cb4ddac561724b2ed2ef05fd1b7d94730",
+        "version": "0e239f68938dfcd8d9af7cf6a5c083411a057d87780a5003fc5e9048849b0fb4",
         "signature": "ce4b66a44776ba89858d83a78502caaafd166f6807aa08c1c82b5b84d8e20bd7",
         "affectsGlobalScope": false
       },
       "../src/crypto/exportkey.ts": {
-        "version": "f4c80e6a3f01be2b5bc65a4d591e2a3e1bb3938bd0c3151a3014c3d8ca5ce927",
+        "version": "ae426c82c03eebdb8d2a8bc6be0cda78f4574365d371f6581c4dae461fb1a479",
         "signature": "1cf55a42dba6433ec473d3b3a7d6ebde58f3bf151a9440ffe25b2ee053318a54",
         "affectsGlobalScope": false
       },
@@ -386,8 +386,8 @@
         "affectsGlobalScope": false
       },
       "../src/crypto/changekey.ts": {
-        "version": "a4e307908792b16dd9ac33df6e6beef5d6baed9d5f9014f35e336b73e5c69977",
-        "signature": "78134368919eb80d809b54deae765c5d9a8728dca8a0e6cf1879b66c2c5a6054",
+        "version": "2e98eab3f7e4fa5ce4945266813b5441a5575e49eff780511974f53951adc9c9",
+        "signature": "8c021b89b84911fcf5a1d46f70691835dafb3771c3f9d66c515d564ea7b42088",
         "affectsGlobalScope": false
       },
       "../node_modules/isomorphic-webcrypto/index.d.ts": {
@@ -396,12 +396,12 @@
         "affectsGlobalScope": false
       },
       "../src/crypto/crypto.spec.ts": {
-        "version": "17ac78ca90cb243ea8706b29076be0b86053fc9b5c9fc194179492b8f2155fe7",
+        "version": "a9297645db94318f05b6b084170adf01969b6fcd4639c19137329189af1339be",
         "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
         "affectsGlobalScope": false
       },
       "../src/localdb/localdb.spec.ts": {
-        "version": "8c415ef3e5f8e74842ef0a4f3841df40623aff9b25f6c3be789252de430bc33f",
+        "version": "7455394ef467205aeec960b1243f0037de00f2d902a43bd6070289a5e40ce998",
         "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
         "affectsGlobalScope": false
       },
