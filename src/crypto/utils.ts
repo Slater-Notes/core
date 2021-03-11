@@ -1,3 +1,4 @@
+import crypto from 'isomorphic-webcrypto';
 import buffer from 'buffer';
 
 export const stringToBuffer = (payload: string): Uint8Array => {
