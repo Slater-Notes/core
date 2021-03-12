@@ -1,4 +1,6 @@
-import crypto from 'isomorphic-webcrypto';
+if (!globalThis.crypto) {
+  globalThis.crypto = require('isomorphic-webcrypto');
+}
 import { stringToBuffer } from './utils';
 
 const getKeyFromPassword = async (password: string) => {

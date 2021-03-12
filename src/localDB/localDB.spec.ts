@@ -1,12 +1,12 @@
 import test from 'ava';
-import crypto from 'isomorphic-webcrypto';
+if (!globalThis.crypto) {
+  globalThis.crypto = require('isomorphic-webcrypto');
+}
 import localDB from '.';
 import decrypt from '../crypto/decrypt';
 import encrypt from '../crypto/encrypt';
 import getKeyFromDerivedPassword from '../crypto/getKeyFromDerivedPassword';
 import { bufferToString, generateSalt, stringToBuffer } from '../crypto/utils';
-
-globalThis.crypto = crypto;
 
 // - Save unencrypted notes as encrypted
 test('save/load encrypted buffer data', async (t) => {

@@ -43,7 +43,7 @@
   "dependencies": {
     "@editorjs/editorjs": "2.19.1",
     "buffer": "6.0.3",
-    "isomorphic-webcrypto": "jeffbocala/isomorphic-webcrypto",
+    "isomorphic-webcrypto": "2.3.8",
     "localforage": "1.9.0",
     "localforage-memoryStorageDriver": "0.9.2"
   },

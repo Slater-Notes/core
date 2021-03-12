@@ -14,9 +14,9 @@ import {
   bufferToBase64,
   base64ToBuffer,
 } from './utils';
-import crypto from 'isomorphic-webcrypto';
-
-globalThis.crypto = crypto;
+if (!globalThis.crypto) {
+  globalThis.crypto = require('isomorphic-webcrypto');
+}
 
 const PASSWORD = '$ome_sTr0ng-p4ssw0rd_1234';
 

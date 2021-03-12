@@ -1,4 +1,6 @@
-import crypto from 'isomorphic-webcrypto';
+if (!globalThis.crypto) {
+  globalThis.crypto = require('isomorphic-webcrypto');
+}
 import buffer from 'buffer';
 
 export const stringToBuffer = (payload: string): Uint8Array => {

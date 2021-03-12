@@ -3531,9 +3531,10 @@ isobject@^3.0.0, isobject@^3.0.1:
   resolved "https://registry.yarnpkg.com/isobject/-/isobject-3.0.1.tgz#4e431e92b11a9731636aa1f9c8d1ccbcfdab78df"
   integrity sha1-TkMekrEalzFjaqH5yNHMvP2reN8=
 
-isomorphic-webcrypto@jeffbocala/isomorphic-webcrypto:
+isomorphic-webcrypto@2.3.8:
   version "2.3.8"
-  resolved "https://codeload.github.com/jeffbocala/isomorphic-webcrypto/tar.gz/cee42c801f803baec61393a1eb9ecebbed46bb52"
+  resolved "https://registry.yarnpkg.com/isomorphic-webcrypto/-/isomorphic-webcrypto-2.3.8.tgz#4a7493b486ef072b9f11b6f8fd66adde856e3eec"
+  integrity sha512-XddQSI0WYlSCjxtm1AI8kWQOulf7hAN3k3DclF1sxDJZqOe0pcsOt675zvWW91cZH9hYs3nlA3Ev8QK5i80SxQ==
   dependencies:
     "@peculiar/webcrypto" "^1.0.22"
     asmcrypto.js "^0.22.0"
