@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.2.3](https://github.com/slater-notes/core/compare/v0.2.2...v0.2.3) (2021-03-12)
+
+
+### Bug Fixes
+
+* **crypto:** fix crypto not working in web workers ([9be419e](https://github.com/slater-notes/core/commit/9be419e1a170eee8a995fd334d5ed8e256c4232a))
+
 ### [0.2.2](https://github.com/slater-notes/core/compare/v0.2.1...v0.2.2) (2021-03-11)
 
 
