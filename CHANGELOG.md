@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.2.4](https://github.com/slater-notes/core/compare/v0.2.3...v0.2.4) (2021-03-17)
+
+
+### Features
+
+* bump @editorjs/editorjs to 2.19.3 ([c604851](https://github.com/slater-notes/core/commit/c604851c8412c24b0c3d9b5c692ed4b029ee9e24))
+
 ### [0.2.3](https://github.com/slater-notes/core/compare/v0.2.2...v0.2.3) (2021-03-12)
 
 
