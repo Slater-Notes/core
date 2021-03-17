@@ -41,7 +41,7 @@
     "node": ">=10"
   },
   "dependencies": {
-    "@editorjs/editorjs": "2.19.1",
+    "@editorjs/editorjs": "2.19.3",
     "buffer": "6.0.3",
     "isomorphic-webcrypto": "2.3.8",
     "localforage": "1.9.0",

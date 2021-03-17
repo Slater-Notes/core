@@ -388,10 +388,10 @@
   resolved "https://registry.yarnpkg.com/@cspell/dict-typescript/-/dict-typescript-1.0.16.tgz#18d20a91c4caf52540c795921a50b0e4ce3bc50c"
   integrity sha512-DEKi6vD605ebDhCC4Hrtz29k59TcijPVsmVKheTpMrL1MD/S96Ftb19gW0pEIVK9vwYZIljmGwgz4qYyuM5Liw==
 
-"@editorjs/editorjs@2.19.1":
-  version "2.19.1"
-  resolved "https://registry.yarnpkg.com/@editorjs/editorjs/-/editorjs-2.19.1.tgz#081daf80dc4f524d457e415f07eb73d0ca6d86ce"
-  integrity sha512-5lN7r5B2NCE8VJdsS3poX3Qg9rNwzpxZ+6Jjif3hAVZTYpQwg5wXEpAHFNbuavS0T5Ji+0ID31DQFotVI4PosA==
+"@editorjs/editorjs@2.19.3":
+  version "2.19.3"
+  resolved "https://registry.yarnpkg.com/@editorjs/editorjs/-/editorjs-2.19.3.tgz#cb0c804bf06f9953f8a78d6af8c7fa85ca2d804f"
+  integrity sha512-2IdR164W1csszDZmtCu91q0q7iQ39BBl82bGlNGaXTEiVLr0sySPcmM7v/3DITldEjE+Uovupclba8YAi40KKQ==
   dependencies:
     codex-notifier "^1.1.2"
     codex-tooltip "^1.0.1"

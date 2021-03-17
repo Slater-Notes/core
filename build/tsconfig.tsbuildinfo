@@ -237,8 +237,8 @@
         "affectsGlobalScope": false
       },
       "../node_modules/@editorjs/editorjs/types/tools/tool-settings.d.ts": {
-        "version": "80c4dd5b5569d52807c3ccfcd015a8a15f69201c82054c7338f5c33cd7184a65",
-        "signature": "80c4dd5b5569d52807c3ccfcd015a8a15f69201c82054c7338f5c33cd7184a65",
+        "version": "8fb0bd8308ea1a6e21ed0bd58b02eac947cb71d1ecdf6bde6f80005c7c8796c4",
+        "signature": "8fb0bd8308ea1a6e21ed0bd58b02eac947cb71d1ecdf6bde6f80005c7c8796c4",
         "affectsGlobalScope": false
       },
       "../node_modules/@editorjs/editorjs/types/tools/index.d.ts": {
@@ -247,8 +247,8 @@
         "affectsGlobalScope": false
       },
       "../node_modules/@editorjs/editorjs/types/configs/sanitizer-config.d.ts": {
-        "version": "fd2b8395ef3889e79362a18f634bf4e0f4788b9c62d9436ec515d542cde1b74a",
-        "signature": "fd2b8395ef3889e79362a18f634bf4e0f4788b9c62d9436ec515d542cde1b74a",
+        "version": "056b0b950ab80f5f5dd35627d35fbed7033220054d35b61013007c61513e19fb",
+        "signature": "056b0b950ab80f5f5dd35627d35fbed7033220054d35b61013007c61513e19fb",
         "affectsGlobalScope": false
       },
       "../node_modules/@editorjs/editorjs/types/configs/i18n-dictionary.d.ts": {
@@ -262,8 +262,8 @@
         "affectsGlobalScope": false
       },
       "../node_modules/@editorjs/editorjs/types/configs/editor-config.d.ts": {
-        "version": "50b0e4a8b144b46fd657049a210006ac9ef6d1352ca8ec70960791cdb1b226fc",
-        "signature": "50b0e4a8b144b46fd657049a210006ac9ef6d1352ca8ec70960791cdb1b226fc",
+        "version": "642bfe140172c1f3069988056146b7796937ae915ab351a08aeca539016d9a95",
+        "signature": "642bfe140172c1f3069988056146b7796937ae915ab351a08aeca539016d9a95",
         "affectsGlobalScope": false
       },
       "../node_modules/@editorjs/editorjs/types/configs/paste-config.d.ts": {
@@ -286,8 +286,8 @@
         "affectsGlobalScope": false
       },
       "../node_modules/@editorjs/editorjs/types/data-formats/output-data.d.ts": {
-        "version": "293de9d122396e3a15a5c603b4cefb76d08488dd20ce30ad6ee3be4ab22e3e9b",
-        "signature": "293de9d122396e3a15a5c603b4cefb76d08488dd20ce30ad6ee3be4ab22e3e9b",
+        "version": "1769240fd3b72a1bb01c90ead19f38a76117dfcf657a160dd84c7fc98acea5e1",
+        "signature": "1769240fd3b72a1bb01c90ead19f38a76117dfcf657a160dd84c7fc98acea5e1",
         "affectsGlobalScope": false
       },
       "../node_modules/@editorjs/editorjs/types/data-formats/block-data.d.ts": {
@@ -346,8 +346,8 @@
         "affectsGlobalScope": false
       },
       "../node_modules/@editorjs/editorjs/types/api/toolbar.d.ts": {
-        "version": "bb508e64f3b4cee3671faa7920a02e2fdaefe728d83121366c51eeb53300715d",
-        "signature": "bb508e64f3b4cee3671faa7920a02e2fdaefe728d83121366c51eeb53300715d",
+        "version": "67bd23dda139357aae4414313142b1527f5d9209cbba6d1dc94528a0e3384ef8",
+        "signature": "67bd23dda139357aae4414313142b1527f5d9209cbba6d1dc94528a0e3384ef8",
         "affectsGlobalScope": false
       },
       "../node_modules/codex-notifier/index.d.ts": {
@@ -401,8 +401,8 @@
         "affectsGlobalScope": false
       },
       "../node_modules/@editorjs/editorjs/types/index.d.ts": {
-        "version": "dc09e61b47b98a00a56be6c03c1fdc8b592220e97f8ea26cd9b1b4b629b09868",
-        "signature": "dc09e61b47b98a00a56be6c03c1fdc8b592220e97f8ea26cd9b1b4b629b09868",
+        "version": "b25c28e3c57b1fbde16006405f3ccfda64a12df68e59f9da007fbbc3a8a70062",
+        "signature": "b25c28e3c57b1fbde16006405f3ccfda64a12df68e59f9da007fbbc3a8a70062",
         "affectsGlobalScope": false
       },
       "../src/types/notes.ts": {
